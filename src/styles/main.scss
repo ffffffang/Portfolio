@@ -15,6 +15,7 @@ $color-black: #333;
 body {
   background: #151719;
   overflow-x: hidden;
+  font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
 }
 a {
   text-decoration: none;
@@ -59,7 +60,8 @@ h6,
 p,
 span,
 ul,
-li {
+li,
+a {
   font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
 }
 @import "./nav";

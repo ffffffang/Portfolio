@@ -11,6 +11,25 @@
     gap: 120px;
     color: $color-black;
   }
+  @include tab-width {
+    padding: 800px 10% 0;
+  }
+  @include tab-width {
+    padding: 450px 10% 0;
+  }
+  .bg-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: 0;
+    @include tab-width {
+      background-size: 85vh;
+      background-position: top;
+      background-repeat: no-repeat;
+      height: 85%;
+    }
+  }
   .bg-banner {
     top: 0;
     left: 0;
@@ -20,6 +39,9 @@
     position: absolute;
     @include max-width {
       height: 650px;
+    }
+    @include tab-width {
+      display: none;
     }
   }
   .info,

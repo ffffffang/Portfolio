@@ -29,7 +29,7 @@ const Intro6 = () => {
               在操作過程中，需要使用的計算項目細項尚未釐清，導致其實只有一種計算選項
             </p>
             <img
-              src="/images/ease/Old_Interpolation_tool.jpg"
+              src="/portfolio/images/ease/Old_Interpolation_tool.jpg"
               alt=""
             />
             <p>
@@ -38,7 +38,7 @@ const Intro6 = () => {
               <br></br>◼ 多項程序可在一頁內完成操作，避免忘記前步選擇
             </p>
             <img
-              src="/images/ease/New_Interpolation_tool.jpg"
+              src="/portfolio/images/ease/New_Interpolation_tool.jpg"
               alt=""
             />
           </div>
@@ -50,7 +50,7 @@ const Intro6 = () => {
               <br></br>◼ 需設立網格點的點空間大小
             </p>
             <img
-              src="/images/ease/Mesh_generation_tool.jpg"
+              src="/portfolio/images/ease/Mesh_generation_tool.jpg"
               alt=""
             />
             <p>
@@ -59,7 +59,7 @@ const Intro6 = () => {
               <br></br>◼ 提供x.y.z點空間大小數值輸入
             </p>
             <img
-              src="/images/ease/MU_Mesh_generation_tool.jpg"
+              src="/portfolio/images/ease/MU_Mesh_generation_tool.jpg"
               alt=""
               srcset=""
             />
@@ -67,34 +67,34 @@ const Intro6 = () => {
           <div>
             <h4>動畫工具</h4>
             <img
-              src="/images/ease/IA_animation.jpg"
+              src="/portfolio/images/ease/IA_animation.jpg"
               alt=""
               srcset=""
             />
             <img
-              src="/images/ease/MU_Animation.jpg"
+              src="/portfolio/images/ease/MU_Animation.jpg"
               alt=""
             />
             <p>Default</p>
             <img
-              src="/images/ease/animation_default.jpg"
+              src="/portfolio/images/ease/animation_default.jpg"
               alt=""
             />
             <p>Edit Tool - Position</p>
             <img
-              src="/images/ease/animation_edit1.jpg"
+              src="/portfolio/images/ease/animation_edit1.jpg"
               alt=""
             />
             <p>Edit Tool - Sec.</p>
             <img
-              src="/images/ease/animation_edit2.jpg"
+              src="/portfolio/images/ease/animation_edit2.jpg"
               alt=""
             />
           </div>
         </div>
       </div>
       <img
-        src="/images/ease/End.jpg"
+        src="/portfolio/images/ease/End.jpg"
         alt=""
         className="thank-you"
       />

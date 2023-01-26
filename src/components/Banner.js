@@ -16,11 +16,16 @@ const Banner = (props) => {
           className="banner"
           key={uuid()}
         >
-          <img
-            src={item.bg}
-            alt={item.id}
-            className="bg-banner"
-          />
+          <div
+            className="bg-wrapper"
+            style={{ backgroundImage: `url(${item.bgs})` }}
+          >
+            <img
+              src={item.bg}
+              alt={item.id}
+              className="bg-banner"
+            />
+          </div>
           <div className="info">
             <div>
               <h3>MY ROLE</h3>

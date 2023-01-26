@@ -7,6 +7,7 @@
 body {
   background: #151719;
   overflow-x: hidden;
+  font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
 }
 
 a {
@@ -29,7 +30,8 @@ h6,
 p,
 span,
 ul,
-li {
+li,
+a {
   font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
 }
 
@@ -400,6 +402,31 @@ li {
     color: #333;
   }
 }
+@media (max-width: 860px) {
+  .banner {
+    padding: 800px 10% 0;
+  }
+}
+@media (max-width: 860px) {
+  .banner {
+    padding: 450px 10% 0;
+  }
+}
+.banner .bg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-size: 0;
+}
+@media (max-width: 860px) {
+  .banner .bg-wrapper {
+    background-size: 85vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 85%;
+  }
+}
 .banner .bg-banner {
   top: 0;
   left: 0;
@@ -412,6 +439,11 @@ li {
 @media (max-width: 1440px) {
   .banner .bg-banner {
     height: 650px;
+  }
+}
+@media (max-width: 860px) {
+  .banner .bg-banner {
+    display: none;
   }
 }
 .banner .info,
