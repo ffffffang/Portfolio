@@ -9,43 +9,43 @@ import Intro5 from "./pages/project-intro/Intro5";
 import Intro6 from "./pages/project-intro/Intro6";
 
 import "./styles/main.css";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
       <Nav />
       <Routes>
         <Route
-          path="/"
+          path="/portfolio"
           index
           element={<Project />}
         />
         <Route
-          path="/about"
+          path="/portfolio/about"
           element={<About />}
         />
         <Route
-          path="/project/1"
+          path="/portfolio/project/1"
           element={<Intro1 />}
         />
         <Route
-          path="/project/2"
+          path="/portfolio/project/2"
           element={<Intro2 />}
         />
         <Route
-          path="/project/3"
+          path="/portfolio/project/3"
           element={<Intro3 />}
         />
         <Route
-          path="/project/4"
+          path="/portfolio/project/4"
           element={<Intro4 />}
         />
         <Route
-          path="/project/5"
+          path="/portfolio/project/5"
           element={<Intro5 />}
         />
         <Route
-          path="/project/6"
+          path="/portfolio/project/6"
           element={<Intro6 />}
         />
       </Routes>

@@ -12,11 +12,11 @@ const Nav = () => {
     <div className="nav-wrap">
       <div className="sub-nav">
         <div className="nav-logo">
-          <Link to="/"></Link>
+          <Link to="/portfolio"></Link>
         </div>
         <div className="nav-item-list">
-          <Link to="/">Project</Link>
-          <Link to="/about">About</Link>
+          <Link to="/portfolio">Project</Link>
+          <Link to="/portfolio/about">About</Link>
         </div>
         <div
           className="nav-toggle"
@@ -53,7 +53,7 @@ const Nav = () => {
             <div className="content-wrap">
               <div className="toggle-list">
                 <Link
-                  to="/"
+                  to="/portfolio"
                   onClick={() => {
                     setToggle(false);
                   }}
@@ -61,7 +61,7 @@ const Nav = () => {
                   Project
                 </Link>
                 <Link
-                  to="/about"
+                  to="/portfolio/about"
                   onClick={() => {
                     setToggle(false);
                   }}

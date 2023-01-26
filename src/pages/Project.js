@@ -42,13 +42,13 @@ const Project = () => {
           <div className="hero-left">
             <h1>Grid: a dark directory template for Super</h1>
             <p>利用設計的力量創造易世界</p>
-            <Link to="/about">
+            <Link to="/portfolio/about">
               <Button name="About me" />
             </Link>
           </div>
           <div className="hero-right">
             <img
-              src="./images/MU_404page.jpg"
+              src="/portfolio/images/MU_404page.jpg"
               alt=""
               width="455"
               height="455"
