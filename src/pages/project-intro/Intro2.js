@@ -24,12 +24,12 @@ const Intro2 = () => {
             </p>
             <a href="https://www.gofreight.com/404">View Online</a>
             <img
-              src="/images/GoFreight/MU_404page.jpg"
+              src="/portfolio/images/GoFreight/MU_404page.jpg"
               alt=""
             />
             <p>◼ Solution - Managed Business Page</p>
             <img
-              src="/images/GoFreight/MU_Solution.jpg"
+              src="/portfolio/images/GoFreight/MU_Solution.jpg"
               alt=""
             ></img>
             <p>◼ Blog首頁</p>
@@ -41,7 +41,7 @@ const Intro2 = () => {
               新版layout能和其他頁面共用上方選單，方便觀看完文章後還能引導至產品資訊頁面。
             </p>
             <img
-              src="/images/GoFreight/MU_blog-1.jpg"
+              src="/portfolio/images/GoFreight/MU_blog-1.jpg"
               alt=""
             />
             <p>◼ Blog內頁</p>
@@ -51,7 +51,7 @@ const Intro2 = () => {
               最大更動為調整定義文字區塊寬度，使用者能更輕易的觀看下一行文字。
             </p>
             <img
-              src="/images/GoFreight/MU_blog-2.jpg"
+              src="/portfolio/images/GoFreight/MU_blog-2.jpg"
               alt=""
             ></img>
           </div>
@@ -62,19 +62,19 @@ const Intro2 = () => {
               整理條列出認為可以優化或新增的功能，再以此為參考調查其他To B網站。
             </p>
             <img
-              src="/images/GoFreight/web_survey-1.jpg"
+              src="/portfolio/images/GoFreight/web_survey-1.jpg"
               alt=""
             ></img>
             <p>調研之B2B網站比較圖如下：</p>
             <img
-              src="/images/GoFreight/web_survey-2.jpg"
+              src="/portfolio/images/GoFreight/web_survey-2.jpg"
               alt=""
             ></img>
             <p>
               拆解、結構化其他To B網站找出共通點，定義Gofreight網站的目的性。
             </p>
             <img
-              src="/images/GoFreight/web_survey-3.jpg"
+              src="/portfolio/images/GoFreight/web_survey-3.jpg"
               alt=""
             ></img>
             <p>調研之結果如下圖：</p>
