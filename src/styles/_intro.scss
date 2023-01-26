@@ -1,0 +1,140 @@
+//banners
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15% 10% 18%;
+  color: $color-white;
+  @include max-width {
+    padding: 600px 10% 0;
+    flex-direction: column-reverse;
+    gap: 120px;
+    color: $color-black;
+  }
+  .bg-banner {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    @include max-width {
+      height: 650px;
+    }
+  }
+  .info,
+  .title {
+    z-index: 99;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    letter-spacing: 0.4rem;
+    line-height: 140%;
+    color: inherit;
+    @include sm-width {
+      font-size: 3.5rem;
+    }
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    padding-bottom: 4%;
+    color: inherit;
+    padding-bottom: 1rem;
+  }
+  p {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    color: inherit;
+  }
+}
+//post
+.post-content {
+  padding: 80px 10%;
+  color: $color-black;
+  .post-wrap {
+    margin: 0 25%;
+    & > div {
+      margin: 60px auto;
+    }
+    @include max-width {
+      margin: 0;
+      padding: 160px 0;
+    }
+  }
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    color: $color-black;
+  }
+  a {
+    font-weight: 700;
+    color: $color-black;
+    margin: 20px 0;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  img {
+    margin: 40px auto 60px;
+    width: 100%;
+    height: auto;
+  }
+}
+.thank-you {
+  width: 100vw;
+  height: auto;
+}
+.circle-highlight {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  @include mob-width {
+    margin-top: 2%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .circle-highlight-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 25%;
+    .text-secondary {
+      color: #fafafa;
+      background-color: #333333;
+      width: 10rem;
+      height: 10rem;
+      border-radius: 999em;
+      text-align: center;
+      line-height: 10rem;
+      font-size: 1rem;
+    }
+    p {
+      margin: 20px auto;
+    }
+  }
+}

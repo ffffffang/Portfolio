@@ -1,0 +1,49 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 95px;
+  @include sm-width {
+    padding: 0 25px;
+  }
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    min-height: 530px;
+    @include mob-width {
+      flex-direction: column;
+      gap: 60px;
+    }
+    .hero-left {
+      flex: 0 1 53%;
+      color: $color-white;
+      h1 {
+        line-height: 1.3em;
+        font-weight: 600;
+        font-size: 3rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+      & > p {
+        line-height: 1.5rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+        margin: 10px 0 20px;
+      }
+      .button:hover {
+        opacity: 0.7;
+        background: unset;
+      }
+    }
+    .hero-right {
+      flex: 0 1 40%;
+    }
+  }
+  .tag-wrap {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,126 @@
+.card-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 45px 50px;
+  margin: 0 auto 120px;
+  @include pc-width {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include mob-width {
+    grid-template-columns: 1fr;
+  }
+}
+.card-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: var(--collection-card-shadow);
+  .card-link {
+    text-decoration: none;
+    &:hover .card-text .tag-class {
+      opacity: 1;
+    }
+    .card-img {
+      height: 280px;
+      max-height: 280px;
+      min-height: 200px;
+      width: 100%;
+      border-radius: 10px;
+      transition: all 0.25s ease-in-out;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      overflow: hidden;
+      & > img {
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        // bottom: 0;
+        // right: 0;
+        box-sizing: border-box;
+        padding: 0;
+        border: none;
+        margin: auto;
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center 50%;
+        transition: all 0.25s ease-in-out;
+        transform: scale(1);
+        aspect-ratio: 1/1;
+        overflow: hidden;
+      }
+      &:hover > img {
+        transform: scale(1.2);
+      }
+    }
+    .card-text {
+      h2 {
+        line-height: 1.5;
+        display: flex;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 20px 0 10px;
+        letter-spacing: -0.5px;
+        white-space: pre-wrap;
+        word-break: break-word;
+        color: $color-white;
+      }
+      .card-des {
+        font-size: 14px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        white-space: pre-wrap;
+        opacity: 0.8;
+        color: $color-white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .tag-class {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        gap: 10px;
+        opacity: 0.7;
+        transition: all 0.25s ease-in-out;
+        span {
+          color: $color-white;
+          padding: 14px 10px;
+          font-size: 0.875rem;
+          font-weight: 400;
+          white-space: nowrap;
+          margin: 0;
+          line-height: 0;
+          max-width: 100%;
+          border-radius: 50px;
+          // opacity: 0.7;
+          // transition: opacity 0.15s ease-in-out;
+
+          &.orange {
+            background-color: rgba(0, 135, 107, 0.2);
+          }
+          &.yellow {
+            background-color: rgba(233, 168, 0, 0.2);
+          }
+          &.green {
+            background-color: rgba(0, 135, 107, 0.2);
+          }
+          &.blue {
+            background-color: rgba(0, 120, 223, 0.2);
+          }
+          &.purple {
+            background-color: rgba(103, 36, 222, 0.2);
+          }
+        }
+      }
+    }
+  }
+}
