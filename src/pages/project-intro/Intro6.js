@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/Banner";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Intro6 = () => {
   return (
     <div className="intro-bg">
@@ -28,7 +28,7 @@ const Intro6 = () => {
               <br></br>◼
               在操作過程中，需要使用的計算項目細項尚未釐清，導致其實只有一種計算選項
             </p>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/Old_Interpolation_tool.jpg"
               alt=""
             />
@@ -37,7 +37,7 @@ const Intro6 = () => {
               <br></br>◼ 調整提示語，讓使用者了解選項目的
               <br></br>◼ 多項程序可在一頁內完成操作，避免忘記前步選擇
             </p>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/New_Interpolation_tool.jpg"
               alt=""
             />
@@ -49,7 +49,7 @@ const Intro6 = () => {
               <br></br>◼ 網格生成可選多個圖層共同計算
               <br></br>◼ 需設立網格點的點空間大小
             </p>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/Mesh_generation_tool.jpg"
               alt=""
             />
@@ -58,7 +58,7 @@ const Intro6 = () => {
               <br></br>◼ 開啟網格生成工具後，圖層轉為勾選模式，可匯入網格工具
               <br></br>◼ 提供x.y.z點空間大小數值輸入
             </p>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/MU_Mesh_generation_tool.jpg"
               alt=""
               srcset=""
@@ -66,34 +66,34 @@ const Intro6 = () => {
           </div>
           <div>
             <h4>動畫工具</h4>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/IA_animation.jpg"
               alt=""
               srcset=""
             />
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/MU_Animation.jpg"
               alt=""
             />
             <p>Default</p>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/animation_default.jpg"
               alt=""
             />
             <p>Edit Tool - Position</p>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/animation_edit1.jpg"
               alt=""
             />
             <p>Edit Tool - Sec.</p>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/ease/animation_edit2.jpg"
               alt=""
             />
           </div>
         </div>
       </div>
-      <img
+      <LazyLoadImage
         src="/portfolio/images/ease/End.jpg"
         alt=""
         className="thank-you"

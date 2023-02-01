@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Card = (props) => {
   return (
     <div className="card-wrap">
@@ -9,7 +10,7 @@ const Card = (props) => {
       >
         {/* put project url */}
         <div className="card-img">
-          <img
+          <LazyLoadImage
             src={props.coverImg}
             alt={props.title}
           />
