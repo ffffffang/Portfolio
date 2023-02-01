@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 45px 50px;
-  margin: 0 auto 120px;
+  margin: 0 auto;
+  padding-bottom: 120px;
   @include pc-width {
     grid-template-columns: 1fr 1fr;
   }
@@ -60,23 +61,20 @@
     }
     .card-text {
       h2 {
-        line-height: 1.5;
         display: flex;
         font-size: 22px;
+        line-height: 1.5;
         font-weight: 600;
         margin: 20px 0 10px;
-        letter-spacing: -0.5px;
+        letter-spacing: 0.1rem;
         white-space: pre-wrap;
         word-break: break-word;
         color: $color-white;
       }
       .card-des {
-        font-size: 14px;
         overflow: hidden;
         margin-bottom: 10px;
-        white-space: pre-wrap;
         opacity: 0.8;
-        color: $color-white;
         display: flex;
         flex-direction: column;
         gap: 20px;

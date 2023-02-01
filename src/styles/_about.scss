@@ -1,0 +1,97 @@
+.about-hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0;
+  @include mob-width {
+    padding: 60px 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .pos {
+    color: #c4c4c4;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.5;
+  }
+  .about-link {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    @include mob-width {
+      margin-top: 0px;
+    }
+  }
+}
+.block-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 90px;
+  padding: 24px 0 30px 0;
+  @include pc-width {
+    gap: 40px;
+  }
+  @include tab-width {
+    flex-direction: column;
+  }
+
+  .title-wrap {
+    flex: 0 0 200px;
+    @include tab-width {
+      flex-basis: auto;
+    }
+    a:hover {
+      opacity: 0.7;
+    }
+  }
+  .text-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .phone {
+    margin-top: 12px;
+  }
+}
+.sort {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: $color-white;
+}
+.des {
+  display: flex;
+  flex-direction: column;
+  .poistion {
+    color: #989898;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .company {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #989898;
+    opacity: 0.9;
+  }
+}
+.line {
+  max-width: 90%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #666;
+  @include tab-width {
+    max-width: 100%;
+  }
+}
+.intro-section {
+  padding-bottom: 60px;
+}

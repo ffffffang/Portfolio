@@ -16,7 +16,7 @@ const Card = (props) => {
         </div>
         <div className="card-text">
           <h2 className="card-title">{props.title}</h2>
-          <div className="card-des">
+          <div className="p-text card-des ">
             {props.description.map((text, index) => {
               return (
                 <p

@@ -11,8 +11,21 @@ import Intro6 from "./pages/project-intro/Intro6";
 import "./styles/main.css";
 import { Routes, Route } from "react-router-dom";
 function App() {
+  const dotBg = {
+    backgroundImage: "url(/portfolio/images/dotBg.png)",
+    backgroundSize: "cover",
+    backgroundReaptY: "norepeat",
+  };
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={dotBg}
+    >
+      <img
+        src="/portfolio/images/gradient-bg.png"
+        className="top-bg"
+        alt="gradient"
+      ></img>
       <Nav />
       <Routes>
         <Route

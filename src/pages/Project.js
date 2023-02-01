@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Card from "../components/Card";
 import Button from "../components/Button";
-import data from "../data";
+import data from "../data/data";
 import { Link } from "react-router-dom";
 
 const Project = () => {

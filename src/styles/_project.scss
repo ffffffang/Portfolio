@@ -18,13 +18,7 @@
     .hero-left {
       flex: 0 1 53%;
       color: $color-white;
-      h1 {
-        line-height: 1.3em;
-        font-weight: 600;
-        font-size: 3rem;
-        white-space: pre-wrap;
-        word-break: break-word;
-      }
+
       & > p {
         line-height: 1.5rem;
         white-space: pre-wrap;
