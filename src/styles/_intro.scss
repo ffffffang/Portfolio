@@ -58,7 +58,7 @@
     font-weight: 800;
     font-size: 4rem;
     letter-spacing: 0.4rem;
-    line-height: 140%;
+    line-height: 1.5;
     color: inherit;
     @include sm-width {
       font-size: 3.5rem;
@@ -77,7 +77,7 @@
     font-size: 1rem;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    line-height: 2rem;
+    line-height: 1.5;
     color: inherit;
   }
 }
@@ -105,7 +105,7 @@
     font-size: 1rem;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    line-height: 2rem;
+    line-height: 1.5;
     color: $color-black;
   }
   a {

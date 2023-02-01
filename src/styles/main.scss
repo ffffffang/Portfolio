@@ -15,7 +15,49 @@ $color-black: #333;
 body {
   background: #151719;
   overflow-x: hidden;
-  font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.top-bg {
+  z-index: -2;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center 75.83%;
+}
+h1 {
+  line-height: 1.3em;
+  font-weight: 600;
+  font-size: 3rem;
+  color: $color-white;
+}
+.p-text {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+  // margin-bottom: 10px;
+  white-space: pre-wrap;
+  opacity: 0.8;
+  color: #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 a {
   text-decoration: none;
@@ -63,9 +105,12 @@ ul,
 li,
 a {
   font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 @import "./nav";
 @import "./card";
 @import "./button";
 @import "./project";
 @import "./intro";
+@import "./about";
