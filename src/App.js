@@ -1,15 +1,17 @@
-import Nav from "./components/Nav";
-import Project from "./pages/Project";
-import About from "./pages/About";
-import Intro1 from "./pages/project-intro/Intro1";
-import Intro2 from "./pages/project-intro/Intro2";
-import Intro3 from "./pages/project-intro/Intro3";
-import Intro4 from "./pages/project-intro/Intro4";
-import Intro5 from "./pages/project-intro/Intro5";
-import Intro6 from "./pages/project-intro/Intro6";
-
-import "./styles/main.css";
+import { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
+import "./styles/main.css";
+
+import Nav from "./components/Nav";
+const About = lazy(() => import("./pages/About"));
+const Project = lazy(() => import("./pages/Project"));
+const Intro1 = lazy(() => import("./pages/project-intro/Intro1"));
+const Intro2 = lazy(() => import("./pages/project-intro/Intro2"));
+const Intro3 = lazy(() => import("./pages/project-intro/Intro3"));
+const Intro4 = lazy(() => import("./pages/project-intro/Intro4"));
+const Intro5 = lazy(() => import("./pages/project-intro/Intro5"));
+const Intro6 = lazy(() => import("./pages/project-intro/Intro6"));
+
 function App() {
   const dotBg = {
     backgroundImage: "url(/portfolio/images/dotBg.png)",

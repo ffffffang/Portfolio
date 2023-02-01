@@ -78,21 +78,21 @@ const Intro1 = () => {
               alt=""
             ></img>
             <p>調研之結果如下圖：</p>
-            <div class="circle-highlight">
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">減少停留時間</h6>
+            <div className="circle-highlight">
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">減少停留時間</h6>
                 <p>減少使用者在首頁的停留時間，快速取得他們所需的資訊。</p>
               </div>
 
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">增加不同層級BTN</h6>
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">增加不同層級BTN</h6>
                 <p>
                   多一個第二層級的CTA按鈕，讓使用者對其他CTA不感興趣或動機不強時增加機會與使用者互動。
                 </p>
               </div>
 
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">網站內容</h6>
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">網站內容</h6>
                 <p>豐富網站內容，提供資訊不同來源給不同受眾。</p>
               </div>
             </div>

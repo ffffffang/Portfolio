@@ -94,7 +94,7 @@ const About = () => {
             </a>
           </div>
           <div className="text-wrap">
-            <div class="des">
+            <div className="des">
               <p className="p-text">
                 Product designer, focused on designing and creating meaningful
                 and memorable product experiences. Dedicate to understanding
