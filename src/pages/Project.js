@@ -54,7 +54,7 @@ const Project = () => {
           <Button name="All" active="active" click={changeTab} />
           <Button name="B2B" click={changeTab} />
           <Button name="B2C" click={changeTab} />
-          <Button name="SASS" click={changeTab} />
+          <Button name="SaaS" click={changeTab} />
           <Button name="APP" click={changeTab} />
           <Button name="Side Project" click={changeTab} />
           <Button name="Marketing Design" click={changeTab} />

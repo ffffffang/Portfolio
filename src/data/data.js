@@ -63,7 +63,7 @@ export default [
     ],
     coverImg: "/portfolio/images/HPAhealth/HP_pic.png",
     tag: {
-      value: ["B2B", "SASS"],
+      value: ["B2B", "SaaS"],
       color: ["pink", "gray"],
     },
     link: "/portfolio/project/5",
@@ -77,7 +77,7 @@ export default [
     ],
     coverImg: "/portfolio/images/ease/HP_pic.png",
     tag: {
-      value: ["B2B", "SASS"],
+      value: ["B2B", "SaaS"],
       color: ["pink", "gray"],
     },
     link: "/portfolio/project/6",
