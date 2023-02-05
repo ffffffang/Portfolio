@@ -7,12 +7,7 @@ import { Link } from "react-router-dom";
 const Project = () => {
   const [card, setCard] = useState(data);
   let cardData = card.map((ele) => {
-    return (
-      <Card
-        key={ele.id}
-        {...ele}
-      />
-    );
+    return <Card key={ele.id} {...ele} />;
   });
   function changeTab(event) {
     let currentValue = event.target.dataset.tag;
@@ -56,27 +51,13 @@ const Project = () => {
           </div>
         </section>
         <section className="tag-wrap">
-          <Button
-            name="All"
-            active="active"
-            click={changeTab}
-          />
-          <Button
-            name="B2B"
-            click={changeTab}
-          />
-          <Button
-            name="B2C"
-            click={changeTab}
-          />
-          <Button
-            name="Side Project"
-            click={changeTab}
-          />
-          <Button
-            name="Marketing design"
-            click={changeTab}
-          />
+          <Button name="All" active="active" click={changeTab} />
+          <Button name="B2B" click={changeTab} />
+          <Button name="B2C" click={changeTab} />
+          <Button name="SASS" click={changeTab} />
+          <Button name="APP" click={changeTab} />
+          <Button name="Side Project" click={changeTab} />
+          <Button name="Marketing Design" click={changeTab} />
         </section>
         <div className="card-box">{cardData}</div>
       </div>

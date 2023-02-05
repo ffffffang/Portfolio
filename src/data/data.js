@@ -8,7 +8,7 @@ export default [
     ],
     coverImg: "/portfolio/images/GoFreight/HP_pic.png",
     tag: {
-      value: ["B2B"],
+      value: ["Marketing Design"],
       color: ["yellow"],
     },
     link: "/portfolio/project/1",
@@ -21,8 +21,8 @@ export default [
     ],
     coverImg: "/portfolio/images/Social/HP_pic.png",
     tag: {
-      value: ["Side Project", "B2C"],
-      color: ["yellow", "purple"],
+      value: ["Marketing Design"],
+      color: ["yellow"],
     },
     link: "/portfolio/project/2",
   },
@@ -35,8 +35,8 @@ export default [
     ],
     coverImg: "/portfolio/images/Workfe/HP_pic.png",
     tag: {
-      value: ["Side Project", "B2B"],
-      color: ["yellow", "blue"],
+      value: ["B2C", "Side Project", "APP"],
+      color: ["purple", "blue", "yellow"],
     },
     link: `/portfolio/project/3`,
   },
@@ -49,8 +49,8 @@ export default [
     ],
     coverImg: "/portfolio/images/Foodie_snail/HP_pic.png",
     tag: {
-      value: ["Side Project", "Marketing design"],
-      color: ["yellow", "blue"],
+      value: ["B2C", "Side Project", "APP"],
+      color: ["purple", "blue", "yellow"],
     },
     link: "/portfolio/project/4",
   },
@@ -63,8 +63,8 @@ export default [
     ],
     coverImg: "/portfolio/images/HPAhealth/HP_pic.png",
     tag: {
-      value: ["Side Project", "Marketing design"],
-      color: ["yellow", "blue"],
+      value: ["B2B", "SASS"],
+      color: ["pink", "gray"],
     },
     link: "/portfolio/project/5",
   },
@@ -77,8 +77,8 @@ export default [
     ],
     coverImg: "/portfolio/images/ease/HP_pic.png",
     tag: {
-      value: ["Side Project", "Marketing design"],
-      color: ["yellow", "blue"],
+      value: ["B2B", "SASS"],
+      color: ["pink", "gray"],
     },
     link: "/portfolio/project/6",
   },
