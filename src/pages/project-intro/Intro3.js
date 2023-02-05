@@ -12,110 +12,229 @@ const Intro3 = () => {
         <div className="post-wrap">
           <div>
             <p>
-              在新版本GoFreight官網更新中負責部分為圖片製作以及部分頁面layout，上線後為達到更好的網站成效持續執行網站調研與測試。
-              此案例將會分享排版設計、插圖以及對官網功能的調研結果。
+              後疫情時代智慧生活風行，您是否有因為找不到合適的咖啡廳而苦惱呢？Workfe可以輕鬆幫你解決：Workfe主打的功能是迅速幫您找到有空位的咖啡廳，同時，您可以在Workfe上與好友分享線下的發現，也可以用＃freetag
+              覓得適合您需求風格的咖啡廳。
+              這就是Workfe，一個致力於解決白跑一趟滿座咖啡廳的麻煩，同時讓您能與好友分享、交流喜愛咖啡廳的平台。
             </p>
           </div>
-          <div>
-            <h4>排版設計</h4>
-            <p>◼ 404 Page</p>
-            <p>
-              設計上主要目標為避免因錯誤原因來到404頁面的使用者得到差勁的體驗。在畫面上採模擬水中的影片做背景，加上與使用者對話的文案，希望用詼諧的方式讓使用者願意導向首頁繼續瀏覽網站。
-            </p>
-            <a href="https://www.gofreight.com/404">View Online</a>
-            <LazyLoadImage
-              src="/portfolio/images/GoFreight/MU_404page.jpg"
-              alt=""
-            />
-            <p>◼ Solution - Managed Business Page</p>
-            <LazyLoadImage
-              src="/portfolio/images/GoFreight/MU_Solution.jpg"
-              alt=""
-            />
-            <p>◼ Blog首頁</p>
-            <p>
-              主要目標：視覺與新官網統一、增加使用者在網站停留時間。
-              <br></br>
-              舊版Blog獨立，需要回到官網才能繼續閱讀產品相關資訊頁面，可能導致從Blog文章進入官網的使用者在看完文章就離開網站。
-              <br></br>
-              新版layout能和其他頁面共用上方選單，方便觀看完文章後還能引導至產品資訊頁面。
-            </p>
-            <LazyLoadImage
-              src="/portfolio/images/GoFreight/MU_blog-1.jpg"
-              alt=""
-            />
-            <p>◼ Blog內頁</p>
-            <p>
-              主要目標：改善閱讀體驗
-              <br></br>
-              最大更動為調整定義文字區塊寬度，使用者能更輕易的觀看下一行文字。
-            </p>
-            <LazyLoadImage
-              src="/portfolio/images/GoFreight/MU_blog-2.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <h4>網站上線後調研</h4>
-            <p>
-              首先我們替網站建立了幾個指標，接著從其他競品、B2B產品網站進行分析。從視覺（包含設計與排版）、功能、內容、資訊架構四個層面切入。
-              整理條列出認為可以優化或新增的功能，再以此為參考調查其他To B網站。
-            </p>
-            <LazyLoadImage
-              src="/portfolio/images/GoFreight/web_survey-1.jpg"
-              alt=""
-            />
-            <p>調研之B2B網站比較圖如下：</p>
-            <LazyLoadImage
-              src="/portfolio/images/GoFreight/web_survey-2.jpg"
-              alt=""
-            />
-            <p>
-              拆解、結構化其他To B網站找出共通點，定義Gofreight網站的目的性。
-            </p>
-            <LazyLoadImage
-              src="/portfolio/images/GoFreight/web_survey-3.jpg"
-              alt=""
-            />
-            <p>調研之結果如下圖：</p>
-            <div className="circle-highlight">
-              <div className="circle-highlight-1">
-                <h6 className="text-secondary">減少停留時間</h6>
-                <p>減少使用者在首頁的停留時間，快速取得他們所需的資訊。</p>
-              </div>
 
-              <div className="circle-highlight-1">
-                <h6 className="text-secondary">增加不同層級BTN</h6>
+          <div>
+            <h4>市場上的競品</h4>
+            <p>
+              「愛食記ifoodie」是人們找餐廳常用的軟體，愛食記內的社群較多在消費者交流，Workfe不只注重用戶與用戶之間的交流也想推動咖啡廳業者與消費者的互動關係。
+              「CAFFÈCOIN」也是我們的另一個競品，Workfe與其做出的市場區隔不僅是擁有咖啡社群，也重點開發滿座率，讓消費者共享資訊，希望能帶來更便利的體驗。
+            </p>
+          </div>
+
+          <div>
+            <h4>問卷調查結果</h4>
+            <p>
+              目前總共投放兩次問卷，第一份針對 Workfe 的市場性：總共收到 136
+              份問卷回覆，填答者以台北市大學生為主。
+              其中有過半數的學生每兩周會去咖啡廳一次以上且超過九成以上的學生會在咖啡廳待超過一小時，故
+              Workfe 在空位率計算方式，初期採商家每小時更新數據。
+            </p>
+            <br></br>
+            <p>
+              第二份針對APP功能做調查，共有78個回覆。
+              填答者不使用市面上提供相似服務 APP 的主要原因有三：1.慣用 Google
+              Map 2.App 提供訊息不足或推廣不足 3.不常去咖啡廳。
+              最期待即時滿座率的功能，最不期待的為社群功能。最困擾的問題我們收斂為以下三項：
+            </p>
+          </div>
+
+          <div class="circle-highlight">
+            <div class="circle-highlight-1">
+              <h6 class="text-secondary">沒位置</h6>
+              <p>
+                1. 看人流量記錄也沒辦法準確預估是否有座位
+                <br></br>
+                2. 資訊沒有像粉絲專頁更新那麼頻繁
+              </p>
+            </div>
+
+            <div class="circle-highlight-1">
+              <h6 class="text-secondary">環境不佳</h6>
+              <p>
+                1. 環境圖少或甚至無，多為店家單方提供
+                <br></br>
+                2. 承上點，無法準確評估咖啡廳全貌
+              </p>
+            </div>
+
+            <div class="circle-highlight-1">
+              <h6 class="text-secondary">評價不公</h6>
+              <p>
+                1. 其他美食APP評論過少
+                <br></br>
+                2. 刷評論無法分辨真假
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h4>初步資訊架構</h4>
+            <img
+              src="/portfolio/images/Workfe/IA.jpg"
+              alt=""
+              class="IA_PIC"
+            ></img>
+          </div>
+
+          <div>
+            <h4>用戶訪談調研</h4>
+            <p>
+              希望了解根據前兩次問卷調查製作，目前APP的功能期待值以及使用者對產品的接受度。
+              以產品畫面蒐集受訪者的第一眼回饋，優化或研擬新增功能。
+              20名受訪者中，男性有5名女性15名，佔75%。年齡分布多為19至25歲的學生，分布大致平均。
+              職業以大學生和研究生佔多數，以下為訪談重點蒐集資訊摘要：
+            </p>
+            <br></br>
+            <p>
+              ◼ 受訪者基本資料
+              <br></br>◼ 以畫面介紹APP功能
+              <br></br>◼ 蒐集受訪者至咖啡廳的行為資料
+              <br></br>◼ 對咖啡廳相關偏好以及看法
+              <br></br>◼ 在尋找適合咖啡廳與咖啡廳內體驗相關痛點
+            </p>
+            <br></br>
+            <p>
+              此次訪談後團隊在市場性以及功能面上稍做調整與策略：
+              <br></br>◼ 加強回報滿座率誘因、新增獎勵機制
+              <br></br>◼ 資訊方面不僅提供咖啡廳基本資訊也加上硬體資訊
+              <br></br>◼ 使用者對社群的期待及社群目的讓我們重新探討文章審核機制
+            </p>
+          </div>
+
+          <div class="hightlight">
+            <h4>產品亮點</h4>
+            <div class="hightlight-1">
+              <div>
+                <img
+                  class="hightlightImg"
+                  src="/portfolio/images/Workfe/freetag.png"
+                  alt=""
+                ></img>
+              </div>
+              <div class="hightlight-content">
+                <h4>#Freetag</h4>
                 <p>
-                  多一個第二層級的CTA按鈕，讓使用者對其他CTA不感興趣或動機不強時增加機會與使用者互動。
+                  由使用者共同定義咖啡廳的特色，使用者可以新增或認同咖啡廳的#freetag，如：寵物、網美、音樂風格、安靜。
                 </p>
               </div>
+            </div>
 
-              <div className="circle-highlight-1">
-                <h6 className="text-secondary">網站內容</h6>
-                <p>豐富網站內容，提供資訊不同來源給不同受眾。</p>
+            <div class="hightlight-1">
+              <div>
+                <img
+                  class="hightlightImg"
+                  src="/portfolio/images/Workfe/vacancy.png"
+                  alt=""
+                ></img>
+              </div>
+              <div class="hightlight-content">
+                <h4>即時滿座率</h4>
+                <p>
+                  商家每小時可回報滿座率，消費者則可以藉由回報滿座率集點數獲取抽獎資格。
+                </p>
+              </div>
+            </div>
+
+            <div class="hightlight-1">
+              <div>
+                <img
+                  class="hightlightImg"
+                  src="/portfolio/images/Workfe/community.png"
+                  alt=""
+                ></img>
+              </div>
+
+              <div class="hightlight-content">
+                <h4>咖啡社群</h4>
+                <p>
+                  商家及消費者皆擁有個人頁面，可以貼文及關注其他使用者（不限商家或消費者）。
+                </p>
               </div>
             </div>
           </div>
+
           <div>
-            <h4>釐清首頁的目標</h4>
+            <h4>封測回饋</h4>
             <p>
-              ◼ 給予使用者找齊需要的資訊入口
-              <br></br>◼
-              目標讓使用者在首頁停留時間減少：使其快速到達想去的頁面，最終目標為增加在官網的總停留時間
-              <br></br>◼ 針對不同使用者提供不同面向的入口（引導式閱讀）
+              邀請百名北市咖啡愛好者一同進行封測，並請他們填寫使用後的回饋表單，此次封測目的主要為初步的易用性測試。為直接了解使用者使用的痛點，除了要求社群發文外，操作上不給其他任務。
+            </p>
+            <br></br>
+            <p>
+              封測測後介面與流程部分回饋整理如下：
+              <br></br>◼ 無法直覺地從地圖功能移動至店家頁面
+              <br></br>◼ 初期比起滿座率更常使用社群功能
+              <br></br>◼ 發文時新增Freetag的操作方式不容易被發現
+              <br></br>◼ 希望發文功能的圖片編輯能夠更彈性
+              <br></br>
+              <br></br>
+              <a
+                href="https://www.workfe.app/docs/a69543535e934b9ab5328ddd224b4358"
+                target="_blank"
+              >
+                查看封測說明
+              </a>
             </p>
           </div>
-          <div>
+
+          <div class="hightlight">
             <h4>我們的下一步</h4>
-            <p>
-              ◼ 找出能讓TA產生信賴感的編排方式（顏色、排版）
-              <br></br>◼ 調整字之間層級的關係
-              <br></br>◼
-              首頁使用方法轉向橋樑（或入口），引導不同身份使用者到其感興趣的頁面
-              <br></br>◼
-              以調研為基礎重新規劃網站資訊架構與資訊區塊排列方式，並進行A/B Test
-            </p>
+            <div class="hightlight-1">
+              <div>
+                <img
+                  class="hightlightImg"
+                  src="/portfolio/images/Workfe/re_map.png"
+                  alt=""
+                ></img>
+              </div>
+              <div class="hightlight-content">
+                <h4>地圖功能</h4>
+                <p>
+                  測後發現使用者在未引導下操作時很難發現下方卡片可以連動至Cafe資訊頁面。
+                  目前更改店家圖釘顏色以及圖片展開、滑動方式，再搭配後續任務測試驗證。
+                </p>
+              </div>
+            </div>
+
+            <div class="hightlight-1">
+              <div>
+                <img
+                  class="hightlightImg"
+                  src="/portfolio/images/Workfe/re_freetag.png"
+                  alt=""
+                ></img>
+              </div>
+              <div class="hightlight-content">
+                <h4>發文標籤Freetag不明顯狀況改善方向</h4>
+                <p>
+                  透過封測結果我們了解到：以#喚出標記Freetag在操作上並不直覺，目前規劃認同Freetag在發文介面中獨立。
+                </p>
+              </div>
+            </div>
+
+            <div class="hightlight-1">
+              <div>
+                <img
+                  class="hightlightImg"
+                  src="/portfolio/images/Workfe/Tap_Bar.png"
+                  alt=""
+                ></img>
+              </div>
+
+              <div class="hightlight-content">
+                <h4>Tap Bar調整</h4>
+                <p>
+                  使用者較常使用社群發文功能，需要思考層級最高放置於Tap
+                  Bar中間的地圖功能（使用者會藉由此觀看附近咖啡滿座率）
+                  是否需要更改設計或甚至改變排列位置。
+                  在不影響Workfe最大賣點下又能更直覺的發文至社群。
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

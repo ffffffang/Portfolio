@@ -11,8 +11,8 @@ export default [
   },
   {
     id: "pj-2",
-    bg: "/portfolio/images/GoFreight/banner.jpg",
-    bgs: "/portfolio/images/GoFreight/banner_s.jpg",
+    bg: "/portfolio/images/Social/banner.jpg",
+    bgs: "/portfolio/images/Social/banner_s.jpg",
     role: ["Illustration", "Animation", "Visual Design"],
     platforms: "Facebook, Youtube",
     years: "2022",
@@ -21,8 +21,8 @@ export default [
   },
   {
     id: "pj-3",
-    bg: "/portfolio/images/GoFreight/banner.jpg",
-    bgs: "/portfolio/images/GoFreight/banner_s.jpg",
+    bg: "/portfolio/images/Workfe/banner.jpg",
+    bgs: "/portfolio/images/Workfe/banner_s.jpg",
     role: [
       "Wireframing",
       "Screen Flows",
@@ -36,8 +36,8 @@ export default [
   },
   {
     id: "pj-4",
-    bg: "/portfolio/images/GoFreight/banner.jpg",
-    bgs: "/portfolio/images/GoFreight/banner_s.jpg",
+    bg: "/portfolio/images/Foodie_snail/banner.jpg",
+    bgs: "/portfolio/images/Foodie_snail/banner_s.jpg",
     role: [
       "Illustration",
       "Wireframing",
@@ -52,8 +52,8 @@ export default [
   },
   {
     id: "pj-5",
-    bg: "/portfolio/images/ease/banner.jpg",
-    bgs: "/portfolio/images/GoFreight/banner_s.jpg",
+    bg: "/portfolio/images/HPAhealth/banner.jpg",
+    bgs: "/portfolio/images/HPAhealth/banner_s.jpg",
     role: ["Wireframing", "UI Design", "User Flow", "Interaction Design"],
     platforms: "Saas",
     years: "2021-2022",
