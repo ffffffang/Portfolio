@@ -11,7 +11,7 @@ const Intro2 = () => {
       <div className="post-content">
         <div className="post-wrap">
           <div>
-            <p>以下為在GoFreight時參與製作之社群媒體宣傳、影片。</p>
+            <p>以下為在 GoFreight 時參與製作之社群媒體宣傳、影片。</p>
           </div>
           <div>
             <LazyLoadImage
