@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bannerdata from "../bannerdata.js";
+import bannerdata from "../data/bannerdata.js";
 import uuid from "react-uuid";
 
 const Banner = (props) => {

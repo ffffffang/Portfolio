@@ -1,7 +1,6 @@
 import React from "react";
 import uuid from "react-uuid";
 const Text = (props) => {
-  console.log(props);
   return (
     <div className="des">
       <h3 className="poistion">{props.position}</h3>

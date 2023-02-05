@@ -28,7 +28,6 @@ const Card = (props) => {
                 </p>
               );
             })}
-            {/* <p className="intro">{props.description}</p> */}
           </div>
           <div className="tag-class">
             {props.tag.color.map((ele, index) => {

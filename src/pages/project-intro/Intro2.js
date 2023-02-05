@@ -14,22 +14,20 @@ const Intro2 = () => {
             <p>以下為在GoFreight時參與製作之社群媒體宣傳、影片。</p>
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/Social/social.png"
               alt=""
-              class="pic-padding"
-            ></img>
+            />
           </div>
-          <div class="video">
+          <div className="video">
             <iframe
               width="1000"
-              height="562.5"
               src="https://www.youtube.com/embed/LthNQkyy9f4"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="video-1"
+              allowFullScreen
+              className="video-1"
             ></iframe>
           </div>
           <div>

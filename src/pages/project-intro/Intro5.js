@@ -9,7 +9,7 @@ const Intro5 = () => {
       {/* span改成div  */}
       <div className="post-content">
         <div className="post-wrap">
-          <div class="content-1">
+          <div>
             <div>
               <p>
                 協助社區單位及地方政府有效運用資通訊技術，以利管理長者健康資訊，並透過平台下載長者容易理解的個人報告，進而增加對健康自主管理與長者健康促進單位活動的信心。
@@ -31,11 +31,10 @@ const Intro5 = () => {
 
             <div>
               <h5>資訊架構</h5>
-              <img
+              <LazyLoadImage
                 src="/portfolio/images/HPAhealth/IA.jpg"
                 alt=""
-                class="IA_PIC"
-              ></img>
+              />
             </div>
 
             <div>
@@ -46,21 +45,21 @@ const Intro5 = () => {
               </p>
               <br></br>
 
-              <div class="circle-highlight">
-                <div class="circle-highlight-1">
-                  <h6 class="text-secondary">資訊狀況</h6>
+              <div className="circle-highlight">
+                <div className="circle-highlight-1">
+                  <h6 className="text-secondary">資訊狀況</h6>
                   <p>提示語少，需要與客服確認如何登打才不會使資料上傳失敗。</p>
                 </div>
 
-                <div class="circle-highlight-1">
-                  <h6 class="text-secondary">資料登打</h6>
+                <div className="circle-highlight-1">
+                  <h6 className="text-secondary">資料登打</h6>
                   <p>
                     系統將課程不同天的資料分開必須要回到上一頁再往下看，導致登打資料時非常耗時間。
                   </p>
                 </div>
 
-                <div class="circle-highlight-1">
-                  <h6 class="text-secondary">不確定因素</h6>
+                <div className="circle-highlight-1">
+                  <h6 className="text-secondary">不確定因素</h6>
                   <p>
                     開課期間有些長者只來第一次，或者前十次都有到，僅兩次未出席，也因此沒後測，該如何記錄？
                   </p>
@@ -84,28 +83,25 @@ const Intro5 = () => {
                 <br></br>
                 以課程管理為例，下為上層資料顯示：
               </p>
-              <img
+              <LazyLoadImage
                 src="/portfolio/images/HPAhealth/MU_class.jpg"
                 alt=""
-                class="pic-padding"
-              ></img>
+              />
               <p>
                 下圖為內層基本資料顯示，改用右側標籤方式，以內層多選下拉選單減少多選元件的空間：
               </p>
-              <img
+              <LazyLoadImage
                 src="/portfolio/images/HPAhealth/MU_class_cardopen.jpg"
                 alt=""
-                class="pic-padding"
-              ></img>
+              />
               <p>
                 重新切分資訊區塊解決原先流程上無法在同一視窗登打改變狀態問題，
                 也可以在每一頁都連結到登打前後測的區域，防止有其中幾堂無法到課的學員沒有登打到資料，導致數值平均不準確：
               </p>
-              <img
+              <LazyLoadImage
                 src="/portfolio/images/HPAhealth/MU_class_cardopen2.jpg"
                 alt=""
-                class="pic-padding"
-              ></img>
+              />
             </div>
 
             <div>
@@ -114,11 +110,10 @@ const Intro5 = () => {
                 系統以電子郵件註冊，舊版平台長者在報到時需要登打相關帳戶資料花費較多時間，新系統自動化報到流程如下：
                 <br></br>
               </p>
-              <img
+              <LazyLoadImage
                 src="/portfolio/images/HPAhealth/process.png"
                 alt=""
-                class="pic-padding"
-              ></img>
+              />
               <br></br>
             </div>
 

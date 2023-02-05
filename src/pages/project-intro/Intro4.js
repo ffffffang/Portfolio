@@ -22,9 +22,9 @@ const Intro4 = () => {
           </div>
           <div>
             <h4>定義用戶</h4>
-            <div class="circle-highlight">
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">
+            <div className="circle-highlight">
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">
                   解構課題
                   <br></br>
                   關鍵字
@@ -34,16 +34,16 @@ const Intro4 = () => {
                 </p>
               </div>
 
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">定義題目</h6>
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">定義題目</h6>
                 <p>
                   進一步票選定義題目為
                   「如何為租屋上班族提供更健康的食物選擇？」
                 </p>
               </div>
 
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">定義TA</h6>
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">定義TA</h6>
                 <p>將客群鎖定為22-35歲的租屋上班族。</p>
               </div>
             </div>
@@ -95,14 +95,14 @@ const Intro4 = () => {
           <div>
             <h4>洞察解析</h4>
             <p>我們分享並且討論了受訪者的故事，收斂出三個主要的重點：</p>
-            <div class="circle-highlight">
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">重視健康</h6>
+            <div className="circle-highlight">
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">重視健康</h6>
                 <p>會下廚的受訪者普遍重視健康</p>
               </div>
 
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">食材問題</h6>
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">食材問題</h6>
                 <p>
                   1. 買太多（不會算份量）
                   <br></br>
@@ -110,8 +110,8 @@ const Intro4 = () => {
                 </p>
               </div>
 
-              <div class="circle-highlight-1">
-                <h6 class="text-secondary">不方便料理</h6>
+              <div className="circle-highlight-1">
+                <h6 className="text-secondary">不方便料理</h6>
                 <p>
                   1. 受限於器具（器具限制烹飪）
                   <br></br>
@@ -147,47 +147,47 @@ const Intro4 = () => {
             </p>
             <br></br>
             <h4>使用者情境</h4>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/Foodie_snail/Userstory.jpg"
               alt=""
-              class="pic-width"
-            ></img>
+              className="pic-width"
+            />
           </div>
 
           <div>
             <h4>資訊架構</h4>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/Foodie_snail/IA.png"
               alt=""
-              class="IA_PIC"
-            ></img>
+              className="IA_PIC"
+            />
           </div>
 
           <div>
             <h4>低保真流程圖</h4>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/Foodie_snail/wireframe1.png"
               alt=""
-              class="IA_PIC"
-            ></img>
-            <img
+              className="IA_PIC"
+            />
+            <LazyLoadImage
               src="/portfolio/images/Foodie_snail/wireframe2.png"
               alt=""
-              class="IA_PIC"
-            ></img>
+              className="IA_PIC"
+            />
           </div>
 
-          <div class="hightlight">
+          <div className="hightlight">
             <h4>產品亮點</h4>
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
-                <img
-                  class="hightlightImg"
+                <LazyLoadImage
+                  className="hightlightImg"
                   src="/portfolio/images/Foodie_snail/H1.png"
                   alt=""
-                ></img>
+                />
               </div>
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>專屬客製化</h4>
                 <p>
                   在初次登錄時透過客製化的方式讓用戶透過選擇家中現有的器具、目標設定，自動推薦適合用戶烹煮的食譜以及相關內容，使用戶後續使用過程中更易貼近需求。
@@ -195,15 +195,15 @@ const Intro4 = () => {
               </div>
             </div>
 
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
-                <img
-                  class="hightlightImg"
+                <LazyLoadImage
+                  className="hightlightImg"
                   src="/portfolio/images/Foodie_snail/H2.png"
                   alt=""
-                ></img>
+                />
               </div>
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>多樣的食譜/外食內容</h4>
                 <p>
                   多樣食譜以及外食選擇，透過演算法讓用戶自己煮/外食的選擇上可以耗費更少的心力，取得更有效率的成果。
@@ -211,16 +211,16 @@ const Intro4 = () => {
               </div>
             </div>
 
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
-                <img
-                  class="hightlightImg"
+                <LazyLoadImage
+                  className="hightlightImg"
                   src="/portfolio/images/Foodie_snail/H3.png"
                   alt=""
-                ></img>
+                />
               </div>
 
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>輕鬆紀錄無負擔</h4>
                 <p>
                   簡化記錄功能同時保留核心功能，更藉由和美食外送平台以及店家合作，讓使用者可以一鍵輕鬆將數據匯入紀錄中。
@@ -231,8 +231,9 @@ const Intro4 = () => {
           <a
             href="https://www.behance.net/gallery/119099339/Foodie-snail-APP"
             target="_blank"
+            rel="noreferrer"
           >
-            <div class="Button">More UI Design Details</div>
+            <div className="Button">More UI Design Details</div>
           </a>
         </div>
       </div>

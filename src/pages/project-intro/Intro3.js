@@ -43,9 +43,9 @@ const Intro3 = () => {
             </p>
           </div>
 
-          <div class="circle-highlight">
-            <div class="circle-highlight-1">
-              <h6 class="text-secondary">沒位置</h6>
+          <div className="circle-highlight">
+            <div className="circle-highlight-1">
+              <h6 className="text-secondary">沒位置</h6>
               <p>
                 1. 看人流量記錄也沒辦法準確預估是否有座位
                 <br></br>
@@ -53,8 +53,8 @@ const Intro3 = () => {
               </p>
             </div>
 
-            <div class="circle-highlight-1">
-              <h6 class="text-secondary">環境不佳</h6>
+            <div className="circle-highlight-1">
+              <h6 className="text-secondary">環境不佳</h6>
               <p>
                 1. 環境圖少或甚至無，多為店家單方提供
                 <br></br>
@@ -62,8 +62,8 @@ const Intro3 = () => {
               </p>
             </div>
 
-            <div class="circle-highlight-1">
-              <h6 class="text-secondary">評價不公</h6>
+            <div className="circle-highlight-1">
+              <h6 className="text-secondary">評價不公</h6>
               <p>
                 1. 其他美食APP評論過少
                 <br></br>
@@ -74,11 +74,11 @@ const Intro3 = () => {
 
           <div>
             <h4>初步資訊架構</h4>
-            <img
+            <LazyLoadImage
               src="/portfolio/images/Workfe/IA.jpg"
               alt=""
-              class="IA_PIC"
-            ></img>
+              className="IA_PIC"
+            />
           </div>
 
           <div>
@@ -106,17 +106,17 @@ const Intro3 = () => {
             </p>
           </div>
 
-          <div class="hightlight">
+          <div className="hightlight">
             <h4>產品亮點</h4>
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
                 <img
-                  class="hightlightImg"
+                  className="hightlightImg"
                   src="/portfolio/images/Workfe/freetag.png"
                   alt=""
                 ></img>
               </div>
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>#Freetag</h4>
                 <p>
                   由使用者共同定義咖啡廳的特色，使用者可以新增或認同咖啡廳的#freetag，如：寵物、網美、音樂風格、安靜。
@@ -124,15 +124,15 @@ const Intro3 = () => {
               </div>
             </div>
 
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
-                <img
-                  class="hightlightImg"
+                <LazyLoadImage
+                  className="hightlightImg"
                   src="/portfolio/images/Workfe/vacancy.png"
                   alt=""
-                ></img>
+                />
               </div>
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>即時滿座率</h4>
                 <p>
                   商家每小時可回報滿座率，消費者則可以藉由回報滿座率集點數獲取抽獎資格。
@@ -140,16 +140,16 @@ const Intro3 = () => {
               </div>
             </div>
 
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
-                <img
-                  class="hightlightImg"
+                <LazyLoadImage
+                  className="hightlightImg"
                   src="/portfolio/images/Workfe/community.png"
                   alt=""
-                ></img>
+                />
               </div>
 
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>咖啡社群</h4>
                 <p>
                   商家及消費者皆擁有個人頁面，可以貼文及關注其他使用者（不限商家或消費者）。
@@ -175,23 +175,24 @@ const Intro3 = () => {
               <a
                 href="https://www.workfe.app/docs/a69543535e934b9ab5328ddd224b4358"
                 target="_blank"
+                rel="noreferrer"
               >
                 查看封測說明
               </a>
             </p>
           </div>
 
-          <div class="hightlight">
+          <div className="hightlight">
             <h4>我們的下一步</h4>
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
-                <img
-                  class="hightlightImg"
+                <LazyLoadImage
+                  className="hightlightImg"
                   src="/portfolio/images/Workfe/re_map.png"
                   alt=""
-                ></img>
+                />
               </div>
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>地圖功能</h4>
                 <p>
                   測後發現使用者在未引導下操作時很難發現下方卡片可以連動至Cafe資訊頁面。
@@ -200,15 +201,15 @@ const Intro3 = () => {
               </div>
             </div>
 
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
-                <img
-                  class="hightlightImg"
+                <LazyLoadImage
+                  className="hightlightImg"
                   src="/portfolio/images/Workfe/re_freetag.png"
                   alt=""
-                ></img>
+                />
               </div>
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>發文標籤Freetag不明顯狀況改善方向</h4>
                 <p>
                   透過封測結果我們了解到：以#喚出標記Freetag在操作上並不直覺，目前規劃認同Freetag在發文介面中獨立。
@@ -216,16 +217,16 @@ const Intro3 = () => {
               </div>
             </div>
 
-            <div class="hightlight-1">
+            <div className="hightlight-1">
               <div>
-                <img
-                  class="hightlightImg"
+                <LazyLoadImage
+                  className="hightlightImg"
                   src="/portfolio/images/Workfe/Tap_Bar.png"
                   alt=""
-                ></img>
+                />
               </div>
 
-              <div class="hightlight-content">
+              <div className="hightlight-content">
                 <h4>Tap Bar調整</h4>
                 <p>
                   使用者較常使用社群發文功能，需要思考層級最高放置於Tap

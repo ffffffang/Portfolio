@@ -22,7 +22,7 @@ function App() {
       style={dotBg}
     >
       <img
-        src="/portfolio/images/gradient-bg.png"
+        src="/portfolio/images/gradient-bg.webp"
         className="top-bg"
         alt="gradient"
       ></img>

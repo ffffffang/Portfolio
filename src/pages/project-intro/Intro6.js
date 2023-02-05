@@ -61,7 +61,6 @@ const Intro6 = () => {
             <LazyLoadImage
               src="/portfolio/images/ease/MU_Mesh_generation_tool.jpg"
               alt=""
-              srcset=""
             />
           </div>
           <div>
@@ -69,7 +68,6 @@ const Intro6 = () => {
             <LazyLoadImage
               src="/portfolio/images/ease/IA_animation.jpg"
               alt=""
-              srcset=""
             />
             <LazyLoadImage
               src="/portfolio/images/ease/MU_Animation.jpg"
