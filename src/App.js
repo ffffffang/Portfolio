@@ -13,7 +13,7 @@ const IntroFoodiesnail = lazy(() =>
 );
 const IntroEHC = lazy(() => import("./pages/project-intro/Intro_EHC"));
 const IntroEase = lazy(() => import("./pages/project-intro/Intro_Ease"));
-const IntroGC = lazy(() => import("./pages/project-intro/Intro_GC"));
+// const IntroGC = lazy(() => import("./pages/project-intro/Intro_GC"));
 const IntroGP = lazy(() => import("./pages/project-intro/Intro_GP"));
 const IntroDO = lazy(() => import("./pages/project-intro/Intro_DO"));
 function App() {
@@ -36,10 +36,10 @@ function App() {
           path="/portfolio/about"
           element={<About />}
         />
-        <Route
+        {/* <Route
           path="/portfolio/project/gofreight-core"
           element={<IntroGC />}
-        />
+        /> */}
         <Route
           path="/portfolio/project/gofreight-pay"
           element={<IntroGP />}

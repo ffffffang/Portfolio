@@ -90,6 +90,11 @@
   flex-direction: row-reverse;
   @include max-width {
     // margin: 0;
+    // flex-direction: column;
+    padding: 80px 10%;
+  }
+  @include pc-width {
+    // margin: 0;
     flex-direction: column;
     padding: 160px 10%;
   }

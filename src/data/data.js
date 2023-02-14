@@ -1,13 +1,13 @@
 export default [
-  {
-    title: "GoFreight Core",
-    description: [
-      "案例為 GoFreight 官方網站改版，作為一款功能多樣強大的 SaaS 軟體，網站將會著重如何讓複雜資訊輕易讓消費者理解進而對產品產生興趣與信賴感。",
-    ],
-    coverImg: "/portfolio/images/GF/GF.jpg",
-    tag: ["B2B", "SaaS", "Released"],
-    link: "/portfolio/project/gofreight-core",
-  },
+  // {
+  //   title: "GoFreight Core",
+  //   description: [
+  //     "案例為 GoFreight 官方網站改版，作為一款功能多樣強大的 SaaS 軟體，網站將會著重如何讓複雜資訊輕易讓消費者理解進而對產品產生興趣與信賴感。",
+  //   ],
+  //   coverImg: "/portfolio/images/GF/GF.jpg",
+  //   tag: ["B2B", "SaaS", "Released"],
+  //   link: "/portfolio/project/gofreight-core",
+  // },
   {
     title: "B2B Online Payment Platform",
     description: [

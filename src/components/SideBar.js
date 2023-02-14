@@ -2,26 +2,28 @@ import React, { useEffect } from "react";
 import uuid from "react-uuid";
 const SubBar = ({ title }) => {
   useEffect(() => {
+    function observerMenu() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const id = entry.target.getAttribute("id");
+          if (entry.intersectionRatio > 0) {
+            document
+              .querySelector(`li a[href="#${id}"]`)
+              .classList.add("active");
+          } else {
+            document
+              .querySelector(`li a[href="#${id}"]`)
+              .classList.remove("active");
+          }
+        });
+      });
+      [...title].forEach((tit) => {
+        observer.observe(tit.parentElement);
+      });
+    }
     observerMenu();
   }, [title]);
 
-  function observerMenu() {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        const id = entry.target.getAttribute("id");
-        if (entry.intersectionRatio > 0) {
-          document.querySelector(`li a[href="#${id}"]`).classList.add("active");
-        } else {
-          document
-            .querySelector(`li a[href="#${id}"]`)
-            .classList.remove("active");
-        }
-      });
-    });
-    [...title].forEach((tit) => {
-      observer.observe(tit.parentElement);
-    });
-  }
   return (
     <div className="toc">
       <ul>
