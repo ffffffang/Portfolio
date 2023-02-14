@@ -29,12 +29,19 @@ const Intro_GF = () => {
               </p>
             </div>
             <div>
-              <h4>排版設計</h4>
+              <h4>01. Layout | UX Writing</h4>
               <p>◼ 404 Page</p>
               <p>
                 設計上主要目標為避免因錯誤原因來到404頁面的使用者得到差勁的體驗。在畫面上採模擬水中的影片做背景，加上與使用者對話的文案，希望用詼諧的方式讓使用者願意導向首頁繼續瀏覽網站。
               </p>
-              <a href="https://www.gofreight.com/404">View Online</a>
+              <a
+                href="https://www.gofreight.com/404"
+                target="_blank"
+                rel="noreferrer"
+                className="sort-content"
+              >
+                <div className="button">View Online</div>
+              </a>
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/GoFreight/MU_404page.jpg"
@@ -79,7 +86,7 @@ const Intro_GF = () => {
               </figure>
             </div>
             <div>
-              <h4>網站上線後調研</h4>
+              <h4>02. 新版網站調研</h4>
               <p>
                 首先我們替網站建立了幾個指標，接著從其他競品、 B2B
                 產品網站進行分析。從視覺（包含設計與排版）、功能、內容、資訊架構四個層面切入。
@@ -131,7 +138,7 @@ const Intro_GF = () => {
               </div>
             </div>
             <div>
-              <h4>釐清首頁的目標</h4>
+              <h5>[ 釐清首頁的目標 ]</h5>
               <p>
                 ◼ 給予使用者找齊需要的資訊入口
                 <br></br>◼
@@ -140,7 +147,7 @@ const Intro_GF = () => {
               </p>
             </div>
             <div>
-              <h4>我們的下一步</h4>
+              <h5>[ 我們的下一步 ]</h5>
               <p>
                 ◼ 找出能讓 TA 產生信賴感的編排方式（顏色、排版）
                 <br></br>◼ 調整字之間層級的關係

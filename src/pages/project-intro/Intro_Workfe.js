@@ -25,15 +25,14 @@ const Intro_Woekfe = () => {
               <p>
                 後疫情時代智慧生活風行，您是否有因為找不到合適的咖啡廳而苦惱呢？
                 Workfe
-                可以輕鬆幫你解決：Workfe主打的功能是迅速幫您找到有空位的咖啡廳，同時，您可以在
-                Workfe 上與好友分享線下的發現，也可以用 ＃freetag
-                覓得適合您需求風格的咖啡廳。 這就是 Workfe
-                ，一個致力於解決白跑一趟滿座咖啡廳的麻煩，同時讓您能與好友分享、交流喜愛咖啡廳的平台。
+                可以輕鬆幫你解決：Workfe主打的功能是迅速幫您找到有空位的咖啡廳，同時您可以在
+                Workfe 覓得適合您需求風格的咖啡廳。 這就是
+                Workfe，一個致力於解決白跑一趟滿座咖啡廳的麻煩，同時讓您能與好友分享、交流喜愛咖啡廳的平台。
               </p>
             </div>
 
             <div>
-              <h4>市場上的競品</h4>
+              <h4>01. 市場上的競品</h4>
               <p>
                 「愛食記
                 ifoodie」是人們找餐廳常用的軟體，愛食記內的社群較多在消費者交流，
@@ -44,7 +43,8 @@ const Intro_Woekfe = () => {
             </div>
 
             <div>
-              <h4>問卷調查結果</h4>
+              <h4>02. 調研紀錄</h4>
+              <h5>[ 問卷調查 ]</h5>
               <p>
                 目前總共投放兩次問卷，第一份針對 Workfe 的市場性：總共收到 136
                 份問卷回覆，填答者以台北市大學生為主。
@@ -55,7 +55,7 @@ const Intro_Woekfe = () => {
               <p>
                 第二份針對APP功能做調查，共有78個回覆。
                 填答者不使用市面上提供相似服務 APP 的主要原因有三：1.慣用 Google
-                Map 2.App 提供訊息不足或推廣不足 3.不常去咖啡廳。
+                Map 2.APP 提供訊息不足或推廣不足 3.不常去咖啡廳。
                 最期待即時滿座率的功能，最不期待的為社群功能。最困擾的問題我們收斂為以下三項：
               </p>
             </div>
@@ -90,7 +90,6 @@ const Intro_Woekfe = () => {
             </div>
 
             <div>
-              <h4>初步資訊架構</h4>
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/Workfe/IA.jpg"
@@ -102,7 +101,7 @@ const Intro_Woekfe = () => {
             </div>
 
             <div>
-              <h4>用戶訪談調研</h4>
+              <h5>[ 用戶訪談調研 ]</h5>
               <p>
                 希望了解根據前兩次問卷調查製作，目前 APP
                 的功能期待值以及使用者對產品的接受度。
@@ -129,8 +128,15 @@ const Intro_Woekfe = () => {
             </div>
 
             <div className="hightlight">
-              <h4>產品亮點</h4>
+              <h4>03. 產品亮點</h4>
               <div className="hightlight-1">
+                <div className="hightlight-content">
+                  <h5>[ #Freetag ]</h5>
+                  <p>
+                    由使用者共同定義咖啡廳的特色，使用者可以新增或認同咖啡廳的
+                    #freetag ，如：寵物、網美、音樂風格、安靜。
+                  </p>
+                </div>
                 <figure>
                   <LazyLoadImage
                     className="hightlightImg"
@@ -138,16 +144,15 @@ const Intro_Woekfe = () => {
                     alt=""
                   />
                 </figure>
-                <div className="hightlight-content">
-                  <h4>#Freetag</h4>
-                  <p>
-                    由使用者共同定義咖啡廳的特色，使用者可以新增或認同咖啡廳的
-                    #freetag ，如：寵物、網美、音樂風格、安靜。
-                  </p>
-                </div>
               </div>
 
               <div className="hightlight-1">
+                <div className="hightlight-content">
+                  <h5>[ 即時滿座率 ]</h5>
+                  <p>
+                    商家每小時可回報滿座率，消費者則可以藉由回報滿座率集點數獲取抽獎資格。
+                  </p>
+                </div>
                 <figure>
                   <LazyLoadImage
                     className="hightlightImg"
@@ -155,16 +160,15 @@ const Intro_Woekfe = () => {
                     alt=""
                   />
                 </figure>
-
-                <div className="hightlight-content">
-                  <h4>即時滿座率</h4>
-                  <p>
-                    商家每小時可回報滿座率，消費者則可以藉由回報滿座率集點數獲取抽獎資格。
-                  </p>
-                </div>
               </div>
 
               <div className="hightlight-1">
+                <div className="hightlight-content">
+                  <h5>[ 咖啡社群]</h5>
+                  <p>
+                    商家及消費者皆擁有個人頁面，可以貼文及關注其他使用者（不限商家或消費者）。
+                  </p>
+                </div>
                 <figure>
                   <LazyLoadImage
                     className="hightlightImg"
@@ -172,18 +176,11 @@ const Intro_Woekfe = () => {
                     alt=""
                   />
                 </figure>
-
-                <div className="hightlight-content">
-                  <h4>咖啡社群</h4>
-                  <p>
-                    商家及消費者皆擁有個人頁面，可以貼文及關注其他使用者（不限商家或消費者）。
-                  </p>
-                </div>
               </div>
             </div>
 
             <div>
-              <h4>封測回饋</h4>
+              <h4>04. 封測回饋</h4>
               <p>
                 邀請百名北市咖啡愛好者一同進行封測，並請他們填寫使用後的回饋表單，此次封測目的主要為初步的易用性測試。為直接了解使用者使用的痛點，除了要求社群發文外，操作上不給其他任務。
               </p>
@@ -208,56 +205,48 @@ const Intro_Woekfe = () => {
             </div>
 
             <div className="hightlight">
-              <h4>我們的下一步</h4>
+              <h4>05. 我們的下一步</h4>
               <div className="hightlight-1">
-                <figure>
-                  <LazyLoadImage
-                    className="hightlightImg"
-                    src="/portfolio/images/Workfe/re_map.png"
-                    alt=""
-                  />
-                </figure>
-
                 <div className="hightlight-content">
-                  <h4>地圖功能</h4>
+                  <h5>[ 地圖功能 ]</h5>
                   <p>
                     測後發現使用者在未引導下操作時很難發現下方卡片可以連動至
                     Cafe 資訊頁面。
                     目前更改店家圖釘顏色以及圖片展開、滑動方式，再搭配後續任務測試驗證。
                   </p>
                 </div>
-              </div>
-
-              <div className="hightlight-1">
                 <figure>
                   <LazyLoadImage
                     className="hightlightImg"
-                    src="/portfolio/images/Workfe/re_freetag.png"
+                    src="/portfolio/images/Workfe/re_map.png"
                     alt=""
                   />
+                  <figcaption>Before(左) After(右)</figcaption>
                 </figure>
+              </div>
 
+              <div className="hightlight-1">
                 <div className="hightlight-content">
-                  <h4>發文標籤 Freetag 不明顯狀況改善方向</h4>
+                  <h5>[ 發文標籤 Freetag 不明顯狀況改善方向 ]</h5>
 
                   <p>
                     透過封測結果我們了解到：以#喚出標記 Freetag
                     在操作上並不直覺，目前規劃認同 Freetag 在發文介面中獨立。
                   </p>
                 </div>
-              </div>
-
-              <div className="hightlight-1">
                 <figure>
                   <LazyLoadImage
                     className="hightlightImg"
-                    src="/portfolio/images/Workfe/Tap_Bar.png"
+                    src="/portfolio/images/Workfe/re_freetag.png"
                     alt=""
                   />
+                  <figcaption>Before(左) After(右)</figcaption>
                 </figure>
+              </div>
 
+              <div className="hightlight-1">
                 <div className="hightlight-content">
-                  <h4>Tap Bar 調整</h4>
+                  <h5>[ Tap Bar 調整 ]</h5>
 
                   <p>
                     使用者較常使用社群發文功能，需要思考層級最高放置於 Tap Bar
@@ -266,6 +255,14 @@ const Intro_Woekfe = () => {
                     最大賣點下又能更直覺的發文至社群。
                   </p>
                 </div>
+                <figure>
+                  <LazyLoadImage
+                    className="hightlightImg"
+                    src="/portfolio/images/Workfe/Tap_Bar.png"
+                    alt=""
+                  />
+                  <figcaption>Before(左) After(右)</figcaption>
+                </figure>
               </div>
             </div>
           </div>

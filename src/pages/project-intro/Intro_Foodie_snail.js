@@ -32,7 +32,7 @@ const Intro_Foodie_snail = () => {
               </p>
             </div>
             <div>
-              <h4>定義用戶</h4>
+              <h4>01. 使用者分析</h4>
               <div className="circle-highlight">
                 <div className="circle-highlight-1">
                   <h6 className="text-secondary">
@@ -61,7 +61,7 @@ const Intro_Foodie_snail = () => {
             </div>
 
             <div>
-              <h4>用戶訪談調研</h4>
+              <h5>[ 用戶訪談調研 ]</h5>
               <p>
                 ◼ 受訪者基本資料
                 <br></br>◼ 飲食習慣
@@ -104,7 +104,7 @@ const Intro_Foodie_snail = () => {
             </div>
 
             <div>
-              <h4>洞察解析</h4>
+              <h5>[ 洞察解析 ]</h5>
               <p>我們分享並且討論了受訪者的故事，收斂出三個主要的重點：</p>
               <div className="circle-highlight">
                 <div className="circle-highlight-1">
@@ -133,8 +133,8 @@ const Intro_Foodie_snail = () => {
             </div>
 
             <div>
-              <h4>該如何做</h4>
-              <p>我們使用 HOW MIGHT WE..... 套入三個重點發想，提出幾個想法：</p>
+              <h5>[ How Might We...? ]</h5>
+              <p>套入三個重點發想，提出幾個想法：</p>
               <p>
                 ◼ 飲食指南與紀錄
                 <br></br>
@@ -152,32 +152,32 @@ const Intro_Foodie_snail = () => {
             </div>
 
             <div>
-              <h4>選擇提案</h4>
+              <h5>[ 選擇提案 ]</h5>
               <p>
                 最後我們討論與票選可執行性，決定以 APP
                 切入為租屋族提供飲食平台與紀錄，接著展開第二次的用戶訪談，深入探討市面上飲食
                 APP 帶給用戶的幫助。
               </p>
               <br></br>
-              <h4>使用者情境</h4>
               <LazyLoadImage
                 src="/portfolio/images/Foodie_snail/Userstory.jpg"
                 alt=""
                 className="pic-width"
               />
+              <figcaption>使用者情境</figcaption>
             </div>
 
             <div>
-              <h4>資訊架構</h4>
+              <h4>02. 計畫與構建</h4>
               <LazyLoadImage
                 src="/portfolio/images/Foodie_snail/IA.png"
                 alt=""
                 className="IA_PIC"
               />
+              <figcaption>資訊架構</figcaption>
             </div>
 
             <div>
-              <h4>低保真流程圖</h4>
               <LazyLoadImage
                 src="/portfolio/images/Foodie_snail/wireframe1.png"
                 alt=""
@@ -188,11 +188,18 @@ const Intro_Foodie_snail = () => {
                 alt=""
                 className="IA_PIC"
               />
+              <figcaption>Wireframe</figcaption>
             </div>
 
             <div className="hightlight">
-              <h4>產品亮點</h4>
+              <h4>03. 產品亮點</h4>
               <div className="hightlight-1">
+                <div className="hightlight-content">
+                  <h5>[ 專屬客製化 ]</h5>
+                  <p>
+                    在初次登錄時透過客製化的方式讓用戶透過選擇家中現有的器具、目標設定，自動推薦適合用戶烹煮的食譜以及相關內容，使用戶後續使用過程中更易貼近需求。
+                  </p>
+                </div>
                 <div>
                   <LazyLoadImage
                     className="hightlightImg"
@@ -200,44 +207,37 @@ const Intro_Foodie_snail = () => {
                     alt=""
                   />
                 </div>
-                <div className="hightlight-content">
-                  <h4>專屬客製化</h4>
-                  <p>
-                    在初次登錄時透過客製化的方式讓用戶透過選擇家中現有的器具、目標設定，自動推薦適合用戶烹煮的食譜以及相關內容，使用戶後續使用過程中更易貼近需求。
-                  </p>
-                </div>
               </div>
 
               <div className="hightlight-1">
                 <div>
+                  <div className="hightlight-content">
+                    <h5>[ 多樣的食譜/外食內容 ]</h5>
+                    <p>
+                      多樣食譜以及外食選擇，透過演算法讓用戶自己煮/外食的選擇上可以耗費更少的心力，取得更有效率的成果。
+                    </p>
+                  </div>
                   <LazyLoadImage
                     className="hightlightImg"
                     src="/portfolio/images/Foodie_snail/H2.png"
                     alt=""
                   />
                 </div>
-                <div className="hightlight-content">
-                  <h4>多樣的食譜/外食內容</h4>
-                  <p>
-                    多樣食譜以及外食選擇，透過演算法讓用戶自己煮/外食的選擇上可以耗費更少的心力，取得更有效率的成果。
-                  </p>
-                </div>
               </div>
 
               <div className="hightlight-1">
                 <div>
+                  <div className="hightlight-content">
+                    <h5>[ 多樣的食譜/外食內容 ]</h5>
+                    <p>
+                      多樣食譜以及外食選擇，透過演算法讓用戶自己煮/外食的選擇上可以耗費更少的心力，取得更有效率的成果。
+                    </p>
+                  </div>
                   <LazyLoadImage
                     className="hightlightImg"
                     src="/portfolio/images/Foodie_snail/H3.png"
                     alt=""
                   />
-                </div>
-
-                <div className="hightlight-content">
-                  <h4>輕鬆紀錄無負擔</h4>
-                  <p>
-                    簡化記錄功能同時保留核心功能，更藉由和美食外送平台以及店家合作，讓使用者可以一鍵輕鬆將數據匯入紀錄中。
-                  </p>
                 </div>
               </div>
             </div>

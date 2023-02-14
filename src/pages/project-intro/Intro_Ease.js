@@ -33,7 +33,7 @@ const Intro_Ease = () => {
               </p>
             </div>
             <div>
-              <h4>空間差值工具</h4>
+              <h4>01. 空間差值工具</h4>
               <p>
                 ◼ 原版步驟多未有進度標示，使用者易不清楚目前執行的階段
                 <br></br>◼
@@ -60,7 +60,7 @@ const Intro_Ease = () => {
               </figure>
             </div>
             <div>
-              <h4>網格生成工具</h4>
+              <h4>02. 網格生成工具</h4>
               <p>
                 新版本增加需求：
                 <br></br>◼ 網格生成可選多個圖層共同計算
@@ -85,39 +85,42 @@ const Intro_Ease = () => {
               </figure>
             </div>
             <div>
-              <h4>動畫工具</h4>
+              <h4>03. 動畫工具</h4>
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/ease/IA_animation.jpg"
                   alt=""
                 />
+                <figcaption>資訊架構</figcaption>
               </figure>
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/ease/MU_Animation.jpg"
                   alt=""
                 />
+                <figcaption>功能示意圖</figcaption>
               </figure>
-              <p>Default</p>
+
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/ease/animation_default.jpg"
                   alt=""
                 />
+                <figcaption>Default</figcaption>
               </figure>
-              <p>Edit Tool - Position</p>
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/ease/animation_edit1.jpg"
                   alt=""
                 />
+                <figcaption>Edit Tool - Position</figcaption>
               </figure>
-              <p>Edit Tool - Sec.</p>
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/ease/animation_edit2.jpg"
                   alt=""
                 />
+                <figcaption>Edit Tool - Sec.</figcaption>
               </figure>
             </div>
           </div>
