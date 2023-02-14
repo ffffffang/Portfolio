@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 // rwd
 $max-width: 1440px;
@@ -107,6 +108,30 @@ a {
   font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
   white-space: pre-wrap;
   word-break: break-word;
+}
+.scroll-box {
+  &.active {
+    opacity: 1;
+  }
+  position: fixed;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  right: 10%;
+  transition: 0.5s ease;
+  color: #151719;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &:hover {
+    opacity: 0.6;
+  }
 }
 @import "./nav";
 @import "./card";

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import bannerdata from "../data/bannerdata.js";
-import uuid from "react-uuid";
+import { nanoid } from "nanoid";
 
 const Banner = (props) => {
   useEffect(() => {
@@ -14,7 +14,7 @@ const Banner = (props) => {
       return (
         <div
           className="banner"
-          key={uuid()}
+          key={nanoid()}
         >
           <div
             className="bg-wrapper"
@@ -30,7 +30,7 @@ const Banner = (props) => {
             <div>
               <h3>MY ROLE</h3>
               {item.role.map((role) => {
-                return <p key={uuid()}>{role}</p>;
+                return <p key={nanoid()}>{role}</p>;
               })}
             </div>
             <div>
@@ -45,14 +45,15 @@ const Banner = (props) => {
           <div className="title">
             <h3>{item.subtitle}</h3>
             {item.title.map((title) => {
-              return <h1 key={uuid()}>{title}</h1>;
+              return <h1 key={nanoid()}>{title}</h1>;
             })}
           </div>
         </div>
       );
     });
   document.querySelector("body").style.background = "#fff";
-  return <>{bannerData}</>;
+  return <>{bannerData}
+  </>;
 };
 
 export default Banner;

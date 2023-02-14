@@ -54,7 +54,7 @@
         transform: scale(1);
         aspect-ratio: 1/1;
         overflow: hidden;
-        filter: brightness(0.9);
+        // filter: brightness(0.9);
       }
       &:hover > img {
         transform: scale(1.2);
@@ -103,25 +103,25 @@
           // opacity: 0.7;
           // transition: opacity 0.15s ease-in-out;
 
-          &.orange {
+          &.designops {
             background-color: rgba(0, 135, 107, 0.2);
           }
-          &.yellow {
+          &.released{
             background-color: rgba(233, 168, 0, 0.2);
           }
-          &.green {
-            background-color: rgba(0, 135, 107, 0.2);
+          &.saas {
+            background-color: rgba(255, 0 ,0,0.2);
           }
-          &.blue {
+          &.b2b {
             background-color: rgba(0, 120, 223, 0.2);
           }
-          &.purple {
+          &.b2c {
             background-color: rgba(103, 36, 222, 0.2);
           }
-          &.pink {
+          &.app {
             background-color: rgba(255, 0, 170, 0.2);
           }
-          &.gray {
+          &.marketing-design {
             background-color: rgba(255, 255, 255, 0.2);
           }
         }

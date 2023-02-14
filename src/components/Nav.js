@@ -12,7 +12,9 @@ const Nav = () => {
     <div className="nav-wrap">
       <div className="sub-nav">
         <div className="nav-logo">
-          <Link to="/portfolio"></Link>
+          <Link to="/portfolio">
+            {/* {logo in here} */}
+          </Link>
         </div>
         <div className="nav-item-list">
           <Link to="/portfolio">Project</Link>

@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "../../components/Banner";
+import Scroll from "../../components/Scroll";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-const Intro5 = () => {
+import SideBar from "../../components/SideBar";
+const Intro_EHC = () => {
+  const [title, setTitle] = useState("");
+  useEffect(() => {
+    setTitle((pre) => {
+      return (pre = document.querySelectorAll(".post-content h4"));
+    });
+  }, []);
   return (
     <div className="intro-bg">
-      <Banner data={"pj-5"} />
+      <Banner data={"pj-elder-health-center"} />
+      <Scroll />
       {/* h5改成h4  */}
       {/* span改成div  */}
-      <div className="post-content">
-        <div className="post-wrap">
-          <div>
+      <div className="post-grid">
+        <SideBar title={title} />
+        <div className="post-content">
+          <div className="post-wrap">
             <div>
               <p>
                 協助社區單位及地方政府有效運用資通訊技術，以利管理長者健康資訊，並透過平台下載長者容易理解的個人報告，進而增加對健康自主管理與長者健康促進單位活動的信心。
@@ -19,9 +29,8 @@ const Intro5 = () => {
             </div>
 
             <div>
-              <h5>使用者</h5>
+              <h4>使用者</h4>
               <p>
-                {" "}
                 ◼ 國健署社區組
                 <br></br>◼ 各地方衛生局
                 <br></br>◼
@@ -30,7 +39,7 @@ const Intro5 = () => {
             </div>
 
             <div>
-              <h5>資訊架構</h5>
+              <h4>資訊架構</h4>
               <LazyLoadImage
                 src="/portfolio/images/HPAhealth/IA.jpg"
                 alt=""
@@ -38,7 +47,7 @@ const Intro5 = () => {
             </div>
 
             <div>
-              <h5>舊版本使用者痛點</h5>
+              <h4>舊版本使用者痛點</h4>
               <p>
                 依據客服人員回報統計數據，發現各單位使用上常發生以下問題：
                 <br></br>
@@ -68,7 +77,7 @@ const Intro5 = () => {
             </div>
 
             <div>
-              <h5>介面重構</h5>
+              <h4>介面重構</h4>
               <p>
                 平台主要功能為管理“人”以及其資料，最上層資料顯示介面上改採用卡片形式。
                 <br></br>
@@ -83,44 +92,51 @@ const Intro5 = () => {
                 <br></br>
                 以課程管理為例，下為上層資料顯示：
               </p>
-              <LazyLoadImage
-                src="/portfolio/images/HPAhealth/MU_class.jpg"
-                alt=""
-              />
+              <figure>
+                <LazyLoadImage
+                  src="/portfolio/images/HPAhealth/MU_class.jpg"
+                  alt=""
+                />
+              </figure>
               <p>
                 下圖為內層基本資料顯示，改用右側標籤方式，以內層多選下拉選單減少多選元件的空間：
               </p>
-              <LazyLoadImage
-                src="/portfolio/images/HPAhealth/MU_class_cardopen.jpg"
-                alt=""
-              />
+              <figure>
+                <LazyLoadImage
+                  src="/portfolio/images/HPAhealth/MU_class_cardopen.jpg"
+                  alt=""
+                />
+              </figure>
               <p>
                 重新切分資訊區塊解決原先流程上無法在同一視窗登打改變狀態問題，
                 也可以在每一頁都連結到登打前後測的區域，防止有其中幾堂無法到課的學員沒有登打到資料，導致數值平均不準確：
               </p>
-              <LazyLoadImage
-                src="/portfolio/images/HPAhealth/MU_class_cardopen2.jpg"
-                alt=""
-              />
+              <figure>
+                <LazyLoadImage
+                  src="/portfolio/images/HPAhealth/MU_class_cardopen2.jpg"
+                  alt=""
+                />
+              </figure>
             </div>
 
             <div>
-              <h5>簡化學員報到方式</h5>
+              <h4>簡化學員報到方式</h4>
               <p>
                 系統以電子郵件註冊，舊版平台長者在報到時需要登打相關帳戶資料花費較多時間，新系統自動化報到流程如下：
                 <br></br>
               </p>
-              <LazyLoadImage
-                src="/portfolio/images/HPAhealth/process.png"
-                alt=""
-              />
+              <figure>
+                <LazyLoadImage
+                  src="/portfolio/images/HPAhealth/process.png"
+                  alt=""
+                />
+              </figure>
               <br></br>
             </div>
 
             <div>
-              <h5>下一步</h5>
+              <h4>下一步</h4>
               <p>
-                {" "}
                 第二版預計於2022年6月中期開放各單位測試使用，測試將著重驗證登打資料以及查找資料的情形是否有改善、設計是否更簡單直覺，並持續進行優化。上層資訊介面方面，未來將會評估資訊區塊不用分頁改無限滾動方式是否能讓體驗更順暢。
                 <br></br>
                 另外預計與 Line Bot 連動讓學員得以實時追蹤課堂通知。
@@ -134,4 +150,4 @@ const Intro5 = () => {
   );
 };
 
-export default Intro5;
+export default Intro_EHC;
