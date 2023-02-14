@@ -5,13 +5,17 @@ import "./styles/main.css";
 import Nav from "./components/Nav";
 const About = lazy(() => import("./pages/About"));
 const Project = lazy(() => import("./pages/Project"));
-const Intro1 = lazy(() => import("./pages/project-intro/Intro1"));
-const Intro2 = lazy(() => import("./pages/project-intro/Intro2"));
-const Intro3 = lazy(() => import("./pages/project-intro/Intro3"));
-const Intro4 = lazy(() => import("./pages/project-intro/Intro4"));
-const Intro5 = lazy(() => import("./pages/project-intro/Intro5"));
-const Intro6 = lazy(() => import("./pages/project-intro/Intro6"));
-
+const IntroGF = lazy(() => import("./pages/project-intro/Intro_GF"));
+const IntroSM = lazy(() => import("./pages/project-intro/Intro_SM"));
+const IntroWorkfe = lazy(() => import("./pages/project-intro/Intro_Workfe"));
+const IntroFoodiesnail = lazy(() =>
+  import("./pages/project-intro/Intro_Foodie_snail")
+);
+const IntroEHC = lazy(() => import("./pages/project-intro/Intro_EHC"));
+const IntroEase = lazy(() => import("./pages/project-intro/Intro_Ease"));
+const IntroGC = lazy(() => import("./pages/project-intro/Intro_GC"));
+const IntroGP = lazy(() => import("./pages/project-intro/Intro_GP"));
+const IntroDO = lazy(() => import("./pages/project-intro/Intro_DO"));
 function App() {
   const dotBg = {
     backgroundImage: "url(/portfolio/images/dotBg.png)",
@@ -21,11 +25,6 @@ function App() {
       className="App"
       style={dotBg}
     >
-      <img
-        src="/portfolio/images/gradient-bg.webp"
-        className="top-bg"
-        alt="gradient"
-      ></img>
       <Nav />
       <Routes>
         <Route
@@ -38,28 +37,41 @@ function App() {
           element={<About />}
         />
         <Route
-          path="/portfolio/project/1"
-          element={<Intro1 />}
+          path="/portfolio/project/gofreight-core"
+          element={<IntroGC />}
         />
         <Route
-          path="/portfolio/project/2"
-          element={<Intro2 />}
+          path="/portfolio/project/gofreight-pay"
+          element={<IntroGP />}
         />
         <Route
-          path="/portfolio/project/3"
-          element={<Intro3 />}
+          path="/portfolio/project/design-operation"
+          element={<IntroDO />}
+        />
+
+        <Route
+          path="/portfolio/project/gofreight-website"
+          element={<IntroGF />}
         />
         <Route
-          path="/portfolio/project/4"
-          element={<Intro4 />}
+          path="/portfolio/project/gofreight-social-media"
+          element={<IntroSM />}
         />
         <Route
-          path="/portfolio/project/5"
-          element={<Intro5 />}
+          path="/portfolio/project/workfe"
+          element={<IntroWorkfe />}
         />
         <Route
-          path="/portfolio/project/6"
-          element={<Intro6 />}
+          path="/portfolio/project/foodie-snail"
+          element={<IntroFoodiesnail />}
+        />
+        <Route
+          path="/portfolio/project/elder-health-center"
+          element={<IntroEHC />}
+        />
+        <Route
+          path="/portfolio/project/ease"
+          element={<IntroEase />}
         />
       </Routes>
     </div>

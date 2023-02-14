@@ -21,3 +21,12 @@
     background: rgba(255, 255, 255, 0.05);
   }
 }
+.post-content {
+  display: flex;
+  gap: 20px;
+  .button {
+    color: #151719;
+    background: rgba(21, 22, 24, 0.1);
+    border: 1px solid #c4c4c4;
+  }
+}
