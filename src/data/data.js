@@ -9,7 +9,7 @@ export default [
   //   link: "/portfolio/project/gofreight-core",
   // },
   {
-    title: "B2B Online Payment Platform",
+    title: "B2B Online Payment Product",
     description: [
       "本專案作為 B2B 金流付款產品的改版專案，目的為增加使用者的轉換率，希望可以藉由它同步提升在平台完成付款的比例。透過跨部門工作坊從不同角度切入、一齊想解方，且在經過改版後，達成設立成長目標。",
     ],

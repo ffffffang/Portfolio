@@ -56,7 +56,10 @@ const Project = () => {
         <section className="hero-section">
           <div className="hero-left">
             <h1>Hi there, I'm Fang.</h1>
-            <p>A product designer who paints' reads, and solves problems.</p>
+            <p>
+              A product designer who paints,&ensp;reads,&ensp;and solves
+              problems.
+            </p>
             <Link to="/portfolio/about">
               <Button name="About me" />
             </Link>
