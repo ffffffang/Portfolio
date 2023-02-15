@@ -128,16 +128,15 @@ const Intro_GP = () => {
               </p>
               <figure>
                 <LazyLoadImage src="/portfolio/images/GP/Layout.jpg" alt="" />
-                <figcaption>解方收斂過程部分截圖</figcaption>
               </figure>
             </div>
             <div>
               <h5>[ 上線後數據觀察結果 ]</h5>
               <p>
                 取 2022 8~11 月的數據比較改版前的相同時長顯示：<br></br>
-                1. 成功減少彈出率：🔻59.03% (Aug.: 62.5% -&gt Nov.: 3.47%)
+                1. 成功減少彈出率：🔻59.03% (Aug.: 62.5% -> Nov.: 3.47%)
                 <br></br>
-                2. 成功提升轉換率：🔺8.16% (Aug.: 18.99% -&gt Nov.: 27.15%)
+                2. 成功提升轉換率：🔺8.16% (Aug.: 18.99% -> Nov.: 27.15%)
               </p>
             </div>
             <div>

@@ -23,7 +23,7 @@ export default [
     platforms: "Saas",
     years: "2022-2023",
     subtitle: "〔 Saas Software 〕",
-    title: ["B2B", "Online Payment Platform"],
+    title: ["B2B", "Online Payment Product"],
   },
   {
     id: "pj-design-operation",
