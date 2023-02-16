@@ -58,75 +58,74 @@ const Intro_Woekfe = () => {
                 Map 2.APP 提供訊息不足或推廣不足 3.不常去咖啡廳。
                 最期待即時滿座率的功能，最不期待的為社群功能。最困擾的問題我們收斂為以下三項：
               </p>
-            </div>
 
-            <div className="circle-highlight">
-              <div className="circle-highlight-1">
-                <h6 className="text-secondary">沒位置</h6>
-                <p>
-                  1. 看人流量記錄也沒辦法準確預估是否有座位
-                  <br></br>
-                  2. 資訊沒有像粉絲專頁更新那麼頻繁
-                </p>
+              <div className="circle-highlight">
+                <div className="circle-highlight-1">
+                  <h6 className="text-secondary">沒位置</h6>
+                  <p>
+                    1. 看人流量記錄也沒辦法準確預估是否有座位
+                    <br></br>
+                    2. 資訊沒有像粉絲專頁更新那麼頻繁
+                  </p>
+                </div>
+
+                <div className="circle-highlight-1">
+                  <h6 className="text-secondary">環境不佳</h6>
+                  <p>
+                    1. 環境圖少或甚至無，多為店家單方提供
+                    <br></br>
+                    2. 承上點，無法準確評估咖啡廳全貌
+                  </p>
+                </div>
+
+                <div className="circle-highlight-1">
+                  <h6 className="text-secondary">評價不公</h6>
+                  <p>
+                    1. 其他美食 APP 評論過少
+                    <br></br>
+                    2. 刷評論無法分辨真假
+                  </p>
+                </div>
               </div>
 
-              <div className="circle-highlight-1">
-                <h6 className="text-secondary">環境不佳</h6>
-                <p>
-                  1. 環境圖少或甚至無，多為店家單方提供
-                  <br></br>
-                  2. 承上點，無法準確評估咖啡廳全貌
-                </p>
+              <div>
+                <figure>
+                  <LazyLoadImage
+                    src="/portfolio/images/Workfe/IA.jpg"
+                    alt=""
+                    className="IA_PIC"
+                  />
+                  <figcaption>初步資訊架構</figcaption>
+                </figure>
               </div>
 
-              <div className="circle-highlight-1">
-                <h6 className="text-secondary">評價不公</h6>
+              <div>
+                <h5>[ 用戶訪談調研 ]</h5>
                 <p>
-                  1. 其他美食 APP 評論過少
-                  <br></br>
-                  2. 刷評論無法分辨真假
+                  希望了解根據前兩次問卷調查製作，目前 APP
+                  的功能期待值以及使用者對產品的接受度。
+                  以產品畫面蒐集受訪者的第一眼回饋，優化或研擬新增功能。
+                  20名受訪者中，男性有5名女性15名，佔75%。年齡分布多為19至25歲的學生，分布大致平均。
+                  職業以大學生和研究生佔多數，以下為訪談重點蒐集資訊摘要：
+                </p>
+                <br></br>
+                <p>
+                  ◼ 受訪者基本資料
+                  <br></br>◼ 以畫面介紹 APP 功能
+                  <br></br>◼ 蒐集受訪者至咖啡廳的行為資料
+                  <br></br>◼ 對咖啡廳相關偏好以及看法
+                  <br></br>◼ 在尋找適合咖啡廳與咖啡廳內體驗相關痛點
+                </p>
+                <br></br>
+                <p>
+                  此次訪談後團隊在市場性以及功能面上稍做調整與策略：
+                  <br></br>◼ 加強回報滿座率誘因、新增獎勵機制
+                  <br></br>◼ 資訊方面不僅提供咖啡廳基本資訊也加上硬體資訊
+                  <br></br>◼
+                  使用者對社群的期待及社群目的讓我們重新探討文章審核機制
                 </p>
               </div>
             </div>
-
-            <div>
-              <figure>
-                <LazyLoadImage
-                  src="/portfolio/images/Workfe/IA.jpg"
-                  alt=""
-                  className="IA_PIC"
-                />
-                <figcaption>初步資訊架構</figcaption>
-              </figure>
-            </div>
-
-            <div>
-              <h5>[ 用戶訪談調研 ]</h5>
-              <p>
-                希望了解根據前兩次問卷調查製作，目前 APP
-                的功能期待值以及使用者對產品的接受度。
-                以產品畫面蒐集受訪者的第一眼回饋，優化或研擬新增功能。
-                20名受訪者中，男性有5名女性15名，佔75%。年齡分布多為19至25歲的學生，分布大致平均。
-                職業以大學生和研究生佔多數，以下為訪談重點蒐集資訊摘要：
-              </p>
-              <br></br>
-              <p>
-                ◼ 受訪者基本資料
-                <br></br>◼ 以畫面介紹 APP 功能
-                <br></br>◼ 蒐集受訪者至咖啡廳的行為資料
-                <br></br>◼ 對咖啡廳相關偏好以及看法
-                <br></br>◼ 在尋找適合咖啡廳與咖啡廳內體驗相關痛點
-              </p>
-              <br></br>
-              <p>
-                此次訪談後團隊在市場性以及功能面上稍做調整與策略：
-                <br></br>◼ 加強回報滿座率誘因、新增獎勵機制
-                <br></br>◼ 資訊方面不僅提供咖啡廳基本資訊也加上硬體資訊
-                <br></br>◼
-                使用者對社群的期待及社群目的讓我們重新探討文章審核機制
-              </p>
-            </div>
-
             <div className="hightlight">
               <h4>03. 產品亮點</h4>
               <div className="hightlight-1">

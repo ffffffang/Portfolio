@@ -81,42 +81,43 @@ const Intro_GP = () => {
                 <br></br> 1. 不知道平台可以帶來什麼精神或時間成本的效益
                 <br></br> 2. 不清楚平台可以降低哪些他們本該承擔的成本
               </p>
-            </div>
-            <div>
-              <h5>[ 問題 ] 如何讓更多人完成交易？</h5>
-              <h5>[ 目標 ] 提升轉換率、減少跳出率</h5>
-              <figure>
-                <LazyLoadImage
-                  src="/portfolio/images/GP/GP_Brainstrom.jpg"
-                  alt=""
-                />
-                <figcaption>針對假設思考解方之部分討論截圖</figcaption>
-              </figure>
-              <figure>
-                <LazyLoadImage
-                  src="/portfolio/images/GP/GP_Function.jpg"
-                  alt=""
-                />
-                <figcaption>公式輔助解方的想過程</figcaption>
-              </figure>
-            </div>
-            <div>
-              <h5>[ 收斂結論，選擇解方 ]</h5>
-              <p>
-                資源與時程考量下，收斂出下列項目作為此次迭代主要調整的項目：
-                <br></br>◼ 減少 Main Page CTA，避免使用者有過多選擇
-                <br></br>◼ 增加資訊
-                <br></br> 1. 付款方式
-                <br></br> 2. 安全性提示
-                <br></br> 3. 付款流程動畫
-              </p>
-              <figure>
-                <LazyLoadImage
-                  src="/portfolio/images/GP/Solve_function.jpg"
-                  alt=""
-                />
-                <figcaption>解方收斂過程部分截圖</figcaption>
-              </figure>
+
+              <div>
+                <h5>[ 問題 ] 如何讓更多人完成交易？</h5>
+                <h5>[ 目標 ] 提升轉換率、減少跳出率</h5>
+                <figure>
+                  <LazyLoadImage
+                    src="/portfolio/images/GP/GP_Brainstrom.jpg"
+                    alt=""
+                  />
+                  <figcaption>針對假設思考解方之部分討論截圖</figcaption>
+                </figure>
+                <figure>
+                  <LazyLoadImage
+                    src="/portfolio/images/GP/GP_Function.jpg"
+                    alt=""
+                  />
+                  <figcaption>公式輔助解方的想過程</figcaption>
+                </figure>
+              </div>
+              <div>
+                <h5>[ 收斂結論，選擇解方 ]</h5>
+                <p>
+                  資源與時程考量下，收斂出下列項目作為此次迭代主要調整的項目：
+                  <br></br>◼ 減少 Main Page CTA，避免使用者有過多選擇
+                  <br></br>◼ 增加資訊
+                  <br></br> 1. 付款方式
+                  <br></br> 2. 安全性提示
+                  <br></br> 3. 付款流程動畫
+                </p>
+                <figure>
+                  <LazyLoadImage
+                    src="/portfolio/images/GP/Solve_function.jpg"
+                    alt=""
+                  />
+                  <figcaption>解方收斂過程部分截圖</figcaption>
+                </figure>
+              </div>
             </div>
             <div>
               <h4>02. 迭代</h4>
@@ -127,16 +128,19 @@ const Intro_GP = () => {
                 Main Page 維持簡潔的樣式，不影響付款體驗。
               </p>
               <figure>
-                <LazyLoadImage src="/portfolio/images/GP/Layout.jpg" alt="" />
+                <LazyLoadImage
+                  src="/portfolio/images/GP/Layout.jpg"
+                  alt=""
+                />
               </figure>
             </div>
             <div>
               <h5>[ 上線後數據觀察結果 ]</h5>
               <p>
                 取 2022 8~11 月的數據比較改版前的相同時長顯示：<br></br>
-                1. 成功減少彈出率：🔻59.03% (Aug.: 62.5% -> Nov.: 3.47%)
+                1. 成功減少彈出率：🔻59.03% (Aug.: 62.5% -&gt; Nov.: 3.47%)
                 <br></br>
-                2. 成功提升轉換率：🔺8.16% (Aug.: 18.99% -> Nov.: 27.15%)
+                2. 成功提升轉換率：🔺8.16% (Aug.: 18.99% -&gt; Nov.: 27.15%)
               </p>
             </div>
             <div>
@@ -157,6 +161,14 @@ const Intro_GP = () => {
                 另外單個 Payer 使用大額付款的頻率增加，會不會也是印證 Payer
                 對平台的信任度提升，也是個值得觀察的議題。
               </p>
+              <video
+                src="/portfolio/images/GP/Mainpage.mov"
+                className="video"
+                autoPlay
+                loop
+                controls
+                muted
+              ></video>
             </div>
           </div>
         </div>
