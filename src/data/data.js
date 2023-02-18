@@ -65,7 +65,7 @@ export default [
   {
     title: "Scrum Training",
     description: [
-      "案例為 GoFreight 官方網站改版，作為一款功能多樣強大的 SaaS 軟體，網站將會著重如何讓複雜資訊輕易讓消費者理解進而對產品產生興趣與信賴感。",
+      "Scrum 新手村 設計上使用粉嫩色系以及多處圓角的視覺感受，讓學習不呆板無聊！ 以實際的工作場景介紹 Scrum team 的運作，讓使用者自己帶入各個角色，能夠嘗試撰寫 User Story、參與 Retro 等，旨在可以更清楚了解業界現狀、更快融入職場。",
     ],
     coverImg: "/portfolio/images/Scrum-Training/Scrum Training.jpg",
     tag: ["Released"],
