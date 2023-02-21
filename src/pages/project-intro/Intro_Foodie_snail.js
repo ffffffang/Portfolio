@@ -27,12 +27,18 @@ const Intro_Foodie_snail = () => {
                 Might We Provide Healthier Food Options for People in Need?
                 <br></br>
                 <br></br>
-                確認好目標族群後，進行第一次議題展開、擬定訪綱後歸納13位受訪者的回答，決定以APP形式提供更間康的食物選擇。
-                透過訪談調研來了解在乎健康、租屋上班族的生活經驗與習慣，找到相關痛點，進而設計出貼近族群需求的設計。
+                我們決定以 APP
+                形式提供更健康的食物選擇。透過訪談調研來了解在乎健康、租屋上班族的生活經驗與習慣，找到相關痛點，進而設計出貼近族群需求的設計。
               </p>
             </div>
             <div>
               <h4>01. 使用者分析</h4>
+              <LazyLoadImage
+                src="/portfolio/images/Foodie_snail/choose_TA.jpg"
+                alt=""
+                className="pic-width"
+              />
+              <figcaption>TA 選擇過程</figcaption>
               <div className="circle-highlight">
                 <div className="circle-highlight-1">
                   <h6 className="text-secondary">
@@ -41,8 +47,14 @@ const Intro_Foodie_snail = () => {
                     關鍵字
                   </h6>
                   <p>
-                    重新解構課題關鍵字，在隊員集思廣益下提案多種潛在TA後定義題目。
+                    重新解構課題關鍵字，在隊員集思廣益下提案多種潛在 TA
+                    後定義題目。
                   </p>
+                </div>
+
+                <div className="circle-highlight-1">
+                  <h6 className="text-secondary">定義 TA</h6>
+                  <p>將客群鎖定為22-35歲的租屋上班族。</p>
                 </div>
 
                 <div className="circle-highlight-1">
@@ -51,11 +63,6 @@ const Intro_Foodie_snail = () => {
                     進一步票選定義題目為
                     「如何為租屋上班族提供更健康的食物選擇？」
                   </p>
-                </div>
-
-                <div className="circle-highlight-1">
-                  <h6 className="text-secondary">定義TA</h6>
-                  <p>將客群鎖定為22-35歲的租屋上班族。</p>
                 </div>
               </div>
 
@@ -69,11 +76,9 @@ const Intro_Foodie_snail = () => {
                 </p>
                 <br></br>
                 <p>
-                  我們共訪談了13位受訪者，欲了解受訪者的飲食習慣、開伙經驗以及對於健康飲食的想法，收斂出三個主要的痛點：
-                  分別是使用飲食紀錄 APP
-                  會遇到的麻煩、食材買太多以及不方便料理。
+                  我們共訪談了13位受訪者，欲了解受訪者的飲食習慣、開伙經驗以及對於健康飲食的想法，收斂出三個主要的痛點：分別是使用飲食紀錄
+                  APP 會遇到的麻煩、食材買太多以及不方便料理。
                 </p>
-                <br></br>
                 <br></br>
 
                 <p>
@@ -102,7 +107,7 @@ const Intro_Foodie_snail = () => {
                   「下班很累不方便煮。」
                 </p>
               </div>
-
+              <br></br>
               <div>
                 <h5>[ 洞察解析 ]</h5>
                 <p>我們分享並且討論了受訪者的故事，收斂出三個主要的重點：</p>
@@ -150,13 +155,13 @@ const Intro_Foodie_snail = () => {
                   方便、單人份量
                 </p>
               </div>
-
+              <br></br>
               <div>
                 <h5>[ 選擇提案 ]</h5>
                 <p>
                   最後我們討論與票選可執行性，決定以 APP
                   切入為租屋族提供飲食平台與紀錄，接著展開第二次的用戶訪談，深入探討市面上飲食
-                  APP 帶給用戶的幫助。
+                  APP 帶給用戶的幫助。以下是我們的 Userstory:
                 </p>
                 <br></br>
                 <LazyLoadImage
@@ -199,6 +204,7 @@ const Intro_Foodie_snail = () => {
                     在初次登錄時透過客製化的方式讓用戶透過選擇家中現有的器具、目標設定，自動推薦適合用戶烹煮的食譜以及相關內容，使用戶後續使用過程中更易貼近需求。
                   </p>
                 </div>
+                <br></br>
                 <div>
                   <LazyLoadImage
                     className="hightlightImg"
@@ -216,6 +222,7 @@ const Intro_Foodie_snail = () => {
                       多樣食譜以及外食選擇，透過演算法讓用戶自己煮/外食的選擇上可以耗費更少的心力，取得更有效率的成果。
                     </p>
                   </div>
+                  <br></br>
                   <LazyLoadImage
                     className="hightlightImg"
                     src="/portfolio/images/Foodie_snail/H2.png"
@@ -232,6 +239,7 @@ const Intro_Foodie_snail = () => {
                       多樣食譜以及外食選擇，透過演算法讓用戶自己煮/外食的選擇上可以耗費更少的心力，取得更有效率的成果。
                     </p>
                   </div>
+                  <br></br>
                   <LazyLoadImage
                     className="hightlightImg"
                     src="/portfolio/images/Foodie_snail/H3.png"

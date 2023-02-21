@@ -22,10 +22,10 @@ const Intro_GP = () => {
           <div className="post-wrap">
             <div>
               <p>
-                GoFreight Pay 是一個連結貨代管理主產品 (GoFreight)
-                的線上付款平台。 收款方 (Payee) 會利用從 GoFreight
-                產生的付款入口 (連結/表單/信件) 向付款方 (Payer) 請款， Payer
-                看到連結後會點進來第一頁（下稱 Main Page）。
+                GoFreight Pay 是一個線上付款平台。 Payee
+                會利用從連結/表單/信件向 Payer 請款， Payer
+                看到連結後會點進來第一頁 (下稱 Main Page)。
+                <br></br>
                 <br></br>
                 我們發現從 Main page 到下一個環節 (註冊/信箱認證) 會掉 80%
                 的使用者，而值得注意的是這 80% 當有 50%
@@ -38,23 +38,25 @@ const Intro_GP = () => {
               </p>
             </div>
             <div>
-              <h5>[ 限制與挑戰 ]</h5>
-              <p>由於資源的調度，必須在一個月的時間內完成設計決策。</p>
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/GP/Payer_Flow.jpg"
                   alt=""
                 />
-                <figcaption>Payer 付款流程圖</figcaption>
+                <figcaption>付款流程圖以及轉換率示意</figcaption>
               </figure>
             </div>
             <div>
               <h4>01. 計畫與重構</h4>
               <h5>[ 集思廣益，跨部門工作坊 ]</h5>
-              <p>
-                開始工作坊前先假設自己是付款人，對付款方做出了初步假設（在
-                Miro）：
-              </p>
+              <figure>
+                <LazyLoadImage
+                  src="/portfolio/images/GP/GP_Before.jpg"
+                  alt=""
+                />
+                <figcaption>Main Page 改版前</figcaption>
+              </figure>
+              <p>開始工作坊前先假設自己是 Payer，對付款方做出了初步假設：</p>
               <br></br>
               <p>
                 ◼ Payer 在 Main Page 認知到「改用新平台的風險」很高
@@ -81,10 +83,9 @@ const Intro_GP = () => {
                 <br></br> 1. 不知道平台可以帶來什麼精神或時間成本的效益
                 <br></br> 2. 不清楚平台可以降低哪些他們本該承擔的成本
               </p>
-
+              <br></br>
+              <br></br>
               <div>
-                <h5>[ 問題 ] 如何讓更多人完成交易？</h5>
-                <h5>[ 目標 ] 提升轉換率、減少跳出率</h5>
                 <figure>
                   <LazyLoadImage
                     src="/portfolio/images/GP/GP_Brainstrom.jpg"
@@ -99,17 +100,12 @@ const Intro_GP = () => {
                   />
                   <figcaption>公式輔助解方的想過程</figcaption>
                 </figure>
+                <h5>[ 問題 ] 如何讓更多人完成交易？</h5>
+                <h5>[ 目標 ] 提升轉換率、減少跳出率</h5>
               </div>
               <div>
+                <br></br>
                 <h5>[ 收斂結論，選擇解方 ]</h5>
-                <p>
-                  資源與時程考量下，收斂出下列項目作為此次迭代主要調整的項目：
-                  <br></br>◼ 減少 Main Page CTA，避免使用者有過多選擇
-                  <br></br>◼ 增加資訊
-                  <br></br> 1. 付款方式
-                  <br></br> 2. 安全性提示
-                  <br></br> 3. 付款流程動畫
-                </p>
                 <figure>
                   <LazyLoadImage
                     src="/portfolio/images/GP/Solve_function.jpg"
@@ -117,21 +113,27 @@ const Intro_GP = () => {
                   />
                   <figcaption>解方收斂過程部分截圖</figcaption>
                 </figure>
+                <p>
+                  資源與時程考量下，收斂出下列項目作為此次迭代主要調整的項目：
+                  <br></br>◼ 減少 Main Page CTA，避免使用者有過多選擇
+                  <br></br>◼ 增加資訊，減少使用者不信任感
+                  <br></br> 1. 付款方式
+                  <br></br> 2. 安全性提示
+                  <br></br> 3. 付款流程動畫
+                </p>
               </div>
             </div>
             <div>
               <h4>02. 迭代</h4>
-              <h5>[ 更改 UI 驗證設計決策 ]</h5>
+              <h5>[ 更改設計，驗證決策 ]</h5>
               <p>
                 Layout 挑戰：如何能將資訊清楚呈現。<br></br>
-                最後選擇了左右切割的排版設計，清楚劃分介紹與操作這兩者，這樣的排版讓增加資訊後的
+                在與 PM
+                及其他設計師討論過後最後選擇了左右切割的排版設計，清楚劃分介紹與操作這兩者，這樣的排版讓增加資訊後的
                 Main Page 維持簡潔的樣式，不影響付款體驗。
               </p>
               <figure>
-                <LazyLoadImage
-                  src="/portfolio/images/GP/Layout.jpg"
-                  alt=""
-                />
+                <LazyLoadImage src="/portfolio/images/GP/Layout.jpg" alt="" />
               </figure>
             </div>
             <div>
