@@ -468,10 +468,16 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15% 10% 18%;
+  padding: 10% 10% 18%;
   color: #fff;
+  gap: 40px;
 }
 @media (max-width: 1440px) {
+  .banner {
+    padding: 40px 10% 18%;
+  }
+}
+@media (max-width: 1060px) {
   .banner {
     padding: 600px 10% 0;
     flex-direction: column-reverse;

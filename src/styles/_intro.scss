@@ -3,9 +3,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15% 10% 18%;
+  padding: 10% 10% 18%;
   color: $color-white;
+  gap: 40px;
   @include max-width {
+    padding: 40px 10% 18%;
+  }
+  @include pc-width {
     padding: 600px 10% 0;
     flex-direction: column-reverse;
     gap: 120px;
