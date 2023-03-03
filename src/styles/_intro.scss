@@ -8,8 +8,9 @@
   gap: 40px;
   @include max-width {
     padding: 40px 10% 18%;
+    gap: 60px;
   }
-  @include pc-width {
+  @include note-width {
     padding: 600px 10% 0;
     flex-direction: column-reverse;
     gap: 120px;

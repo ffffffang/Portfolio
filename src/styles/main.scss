@@ -6,6 +6,7 @@
 }
 // rwd
 $max-width: 1440px;
+$note-width: 1239px;
 $pc-width: 1060px;
 $tab-width: 860px;
 $mob-width: 756px;
@@ -71,6 +72,11 @@ img {
 }
 @mixin max-width {
   @media (max-width: $max-width) {
+    @content;
+  }
+}
+@mixin note-width {
+  @media (max-width: $note-width) {
     @content;
   }
 }

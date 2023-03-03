@@ -475,9 +475,10 @@ a {
 @media (max-width: 1440px) {
   .banner {
     padding: 40px 10% 18%;
+    gap: 60px;
   }
 }
-@media (max-width: 1060px) {
+@media (max-width: 1239px) {
   .banner {
     padding: 600px 10% 0;
     flex-direction: column-reverse;
