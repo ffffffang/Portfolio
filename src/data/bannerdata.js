@@ -20,9 +20,9 @@ export default [
       "Animation Script",
       "Interaction Design",
     ],
-    platforms: "Saas",
+    platforms: "SaaS",
     years: "2022-2023",
-    subtitle: "〔 Saas Software 〕",
+    subtitle: "〔 SaaS Software 〕",
     title: ["B2B", "Online Payment Product"],
   },
   {

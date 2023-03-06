@@ -65,6 +65,13 @@ const Intro_DO = () => {
                 <br></br>則：1. 欄位排版 2. 內容置放<br></br>
                 由找到的規則進行分類，找到直覺切換 State, Variant 的方法。
               </p>
+              <figure>
+                <LazyLoadImage
+                  src="/portfolio/images/Design-Operation/Comp-Structure.jpg"
+                  alt=""
+                />
+                <figcaption>拆解示意圖</figcaption>
+              </figure>
               <h5>[ 規劃架構思考使用情境 ]</h5>
               <figure>
                 <LazyLoadImage

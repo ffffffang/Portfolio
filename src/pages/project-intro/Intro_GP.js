@@ -56,6 +56,10 @@ const Intro_GP = () => {
                 />
                 <figcaption>Main Page 改版前</figcaption>
               </figure>
+              <h5>[ 問題 ] 如何讓更多人完成交易？</h5>
+              <h5>[ 目標 ] 提升轉換率、減少跳出率</h5>
+            </div>
+            <div>
               <p>開始工作坊前先假設自己是 Payer，對付款方做出了初步假設：</p>
               <br></br>
               <p>
@@ -100,8 +104,6 @@ const Intro_GP = () => {
                   />
                   <figcaption>公式輔助解方的想過程</figcaption>
                 </figure>
-                <h5>[ 問題 ] 如何讓更多人完成交易？</h5>
-                <h5>[ 目標 ] 提升轉換率、減少跳出率</h5>
               </div>
               <div>
                 <br></br>
