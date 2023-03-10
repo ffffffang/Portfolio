@@ -44,15 +44,15 @@ export default [
     tag: ["B2C", "APP"],
     link: "/portfolio/project/foodie-snail",
   },
-  {
-    title: "長者健康管理平台",
-    description: [
-      "長者健康管理平台主要為協助國健署輔導網路團隊、地方政府以及社區有效管理及掌握個案參與課程與社團的情形。藉由前、後測數值追蹤在課堂內學員的基本資料，提供簡易的評估報告書提高對長者健康狀況的掌握。",
-    ],
-    coverImg: "/portfolio/images/HPAhealth/Elder health center.jpg",
-    tag: ["B2B", "SaaS", "Released"],
-    link: "/portfolio/project/elder-health-center",
-  },
+  // {
+  //   title: "長者健康管理平台",
+  //   description: [
+  //     "長者健康管理平台主要為協助國健署輔導網路團隊、地方政府以及社區有效管理及掌握個案參與課程與社團的情形。藉由前、後測數值追蹤在課堂內學員的基本資料，提供簡易的評估報告書提高對長者健康狀況的掌握。",
+  //   ],
+  //   coverImg: "/portfolio/images/HPAhealth/Elder health center.jpg",
+  //   tag: ["B2B", "SaaS", "Released"],
+  //   link: "/portfolio/project/elder-health-center",
+  // },
   {
     title: "GoFreight Website",
     description: [

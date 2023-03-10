@@ -21,29 +21,16 @@ function App() {
     backgroundImage: "url(/portfolio/images/dotBg.png)",
   };
   return (
-    <div
-      className="App"
-      style={dotBg}
-    >
+    <div className="App" style={dotBg}>
       <Nav />
       <Routes>
-        <Route
-          path="/portfolio"
-          index
-          element={<Project />}
-        />
-        <Route
-          path="/portfolio/about"
-          element={<About />}
-        />
+        <Route path="/portfolio" index element={<Project />} />
+        <Route path="/portfolio/about" element={<About />} />
         {/* <Route
           path="/portfolio/project/gofreight-core"
           element={<IntroGC />}
         /> */}
-        <Route
-          path="/portfolio/project/gofreight-pay"
-          element={<IntroGP />}
-        />
+        <Route path="/portfolio/project/gofreight-pay" element={<IntroGP />} />
         <Route
           path="/portfolio/project/design-operation"
           element={<IntroDO />}
@@ -57,22 +44,16 @@ function App() {
           path="/portfolio/project/gofreight-social-media"
           element={<IntroSM />}
         />
-        <Route
-          path="/portfolio/project/workfe"
-          element={<IntroWorkfe />}
-        />
+        <Route path="/portfolio/project/workfe" element={<IntroWorkfe />} />
         <Route
           path="/portfolio/project/foodie-snail"
           element={<IntroFoodiesnail />}
         />
-        <Route
+        {/* <Route
           path="/portfolio/project/elder-health-center"
           element={<IntroEHC />}
-        />
-        <Route
-          path="/portfolio/project/ease"
-          element={<IntroEase />}
-        />
+        /> */}
+        <Route path="/portfolio/project/ease" element={<IntroEase />} />
       </Routes>
     </div>
   );
