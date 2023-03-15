@@ -88,9 +88,9 @@ const Intro_GF = () => {
             <div>
               <h4>02. 新版網站調研</h4>
               <p>
-                首先我們替網站建立了幾個指標，接著從其他競品、 B2B
+                我們從其他競品、 B2B
                 產品網站進行分析。從視覺（包含設計與排版）、功能、內容、資訊架構四個層面切入。
-                整理條列出認為可以優化或新增的功能，再以此為參考調查其他 To B
+                整理條列出認為可以優化或新增的功能，再以此為參考調查其他 2B
                 網站。
               </p>
               <figure>
@@ -98,6 +98,7 @@ const Intro_GF = () => {
                   src="/portfolio/images/GoFreight/web_survey-1.jpg"
                   alt=""
                 />
+                <figcaption>討論板示意圖</figcaption>
               </figure>
               <p>調研之 B2B 網站比較圖如下：</p>
               <figure>
@@ -107,8 +108,8 @@ const Intro_GF = () => {
                 />
               </figure>
               <p>
-                拆解、結構化其他 To B 網站找出共通點，定義 Gofreight
-                網站的目的性。
+                繪製出其他網站的 wireframe
+                幫助找出共通點，並比較舊有官網的架構，方便定義官網首頁的目的性。
               </p>
               <figure>
                 <LazyLoadImage
@@ -116,7 +117,10 @@ const Intro_GF = () => {
                   alt=""
                 />
               </figure>
-              <p>調研之結果如下圖：</p>
+              <p>
+                搜集共通點後，我們的結論如下，後續將由這三個方向做 Section
+                改版測試成效：
+              </p>
               <div className="circle-highlight">
                 <div className="circle-highlight-1">
                   <h6 className="text-secondary">減少停留時間</h6>
@@ -156,6 +160,15 @@ const Intro_GF = () => {
                 <br></br>◼
                 以調研為基礎重新規劃網站資訊架構與資訊區塊排列方式，並進行 A/B
                 Test
+              </p>
+            </div>
+            <div>
+              <h5>[ 調整首頁目標後上線結果 ]</h5>
+              <p>
+                取 2022-12-05~12-14 與 2022-12-15 至 2023-01-03
+                的資料做對比（以進入 Hompage 如數相當的時段對比）
+                <br></br>Click 數：🔺 6.8 倍 (2022-12-05~12-14.: 0.5% -{">"}
+                2022-12-15~2023-01-03: 3.9%)
               </p>
             </div>
           </div>
