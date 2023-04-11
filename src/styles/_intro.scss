@@ -103,6 +103,9 @@
     flex-direction: column;
     padding: 160px 10%;
   }
+  @media (min-width: 2040px) {
+    margin: 7% auto;
+  }
 }
 .post-content {
   color: $color-black;
@@ -128,6 +131,7 @@
   }
   p {
     font-size: 1rem;
+
     font-weight: 300;
     letter-spacing: 0.1rem;
     line-height: 1.5;
@@ -147,6 +151,24 @@
     width: 100%;
     height: auto;
   }
+  .before-hover {
+    position: relative;
+    &::before {
+      content: "";
+      background: url("/public/images/GP/Before_Hover.png");
+      background-size: contain;
+      display: block;
+      position: absolute;
+      background-repeat: no-repeat;
+      z-index: 100;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+    }
+    &:hover::before {
+      opacity: 1;
+    }
+  }
   figcaption {
     margin-top: 10px;
     text-align: center;
@@ -164,6 +186,10 @@
       height: auto;
       aspect-ratio: 16/9;
     }
+  }
+  .steps {
+    display: flex;
+    flex-direction: row;
   }
 }
 .toc {
