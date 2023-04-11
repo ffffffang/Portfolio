@@ -4,24 +4,10 @@ import Button from "../components/Button";
 import data from "../data/data";
 import { Link } from "react-router-dom";
 const Project = () => {
-  const TAG = [
-    "All",
-    "APP",
-    "SaaS",
-    "B2B",
-    "B2C",
-    "Released",
-    "DesignOps",
-    "Marketing Design",
-  ];
+  const TAG = ["All", "APP", "SaaS", "Released", "DesignOps"];
   const [card, setCard] = useState(data);
   const cardData = card.map((ele, index) => {
-    return (
-      <Card
-        key={`card-${index}`}
-        {...ele}
-      />
-    );
+    return <Card key={`card-${index}`} {...ele} />;
   });
 
   function changeTab(event) {
@@ -65,20 +51,13 @@ const Project = () => {
             </Link>
           </div>
           <div className="hero-right">
-            <img
-              src="/portfolio/images/Me.png"
-              alt=""
-            />
+            <img src="/portfolio/images/Me.png" alt="" />
           </div>
         </section>
         <section className="tag-wrap">
           {TAG.map((tag) => {
             return (
-              <Button
-                key={`filter-${tag}`}
-                name={tag}
-                click={changeTab}
-              />
+              <Button key={`filter-${tag}`} name={tag} click={changeTab} />
             );
           })}
         </section>

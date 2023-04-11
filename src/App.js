@@ -11,8 +11,8 @@ const IntroWorkfe = lazy(() => import("./pages/project-intro/Intro_Workfe"));
 const IntroFoodiesnail = lazy(() =>
   import("./pages/project-intro/Intro_Foodie_snail")
 );
-const IntroEHC = lazy(() => import("./pages/project-intro/Intro_EHC"));
-const IntroEase = lazy(() => import("./pages/project-intro/Intro_Ease"));
+// const IntroEHC = lazy(() => import("./pages/project-intro/Intro_EHC"));
+// const IntroEase = lazy(() => import("./pages/project-intro/Intro_Ease"));
 // const IntroGC = lazy(() => import("./pages/project-intro/Intro_GC"));
 const IntroGP = lazy(() => import("./pages/project-intro/Intro_GP"));
 const IntroDO = lazy(() => import("./pages/project-intro/Intro_DO"));
@@ -40,10 +40,10 @@ function App() {
           path="/portfolio/project/gofreight-website"
           element={<IntroGF />}
         />
-        <Route
+        {/* <Route
           path="/portfolio/project/gofreight-social-media"
           element={<IntroSM />}
-        />
+        /> */}
         <Route path="/portfolio/project/workfe" element={<IntroWorkfe />} />
         <Route
           path="/portfolio/project/foodie-snail"
@@ -53,7 +53,7 @@ function App() {
           path="/portfolio/project/elder-health-center"
           element={<IntroEHC />}
         /> */}
-        <Route path="/portfolio/project/ease" element={<IntroEase />} />
+        {/* <Route path="/portfolio/project/ease" element={<IntroEase />} /> */}
       </Routes>
     </div>
   );
