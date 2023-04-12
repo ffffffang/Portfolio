@@ -36,7 +36,7 @@ export default [
       "Documentation ",
     ],
     platforms: "-",
-    years: "22022-Now",
+    years: "2022-2023",
     subtitle: "〔 Design Ops 〕",
     title: ["Design system"],
   },

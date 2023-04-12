@@ -28,11 +28,12 @@ const Intro_GP = () => {
                 後可以開始執行付款，詳細流程如下。
               </p>
             </div>
-            <div class="steps">
+            <div class="flex-row">
               <figure>
                 <LazyLoadImage
                   src="/portfolio/images/GP/GoFreightPay_intro_step_1.gif"
                   alt=""
+                  width="100%"
                 />
                 <figcaption>Step1. 選擇付款方式</figcaption>
               </figure>

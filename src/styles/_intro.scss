@@ -136,6 +136,12 @@
     letter-spacing: 0.1rem;
     line-height: 1.5;
     color: $color-black;
+    strong {
+      background: -webkit-linear-gradient(90deg, #0226b5 -1.67%, #5daeff 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+    }
   }
   a {
     font-weight: 700;
@@ -187,10 +193,6 @@
       aspect-ratio: 16/9;
     }
   }
-  .steps {
-    display: flex;
-    flex-direction: row;
-  }
 }
 .toc {
   flex: 0 1 25%;
@@ -227,10 +229,15 @@
   width: 100vw;
   height: auto;
 }
-.circle-highlight {
-  margin-top: 10%;
+.flex-row {
   display: flex;
   flex-direction: row;
+  @include mob-width {
+    flex-direction: column;
+  }
+}
+.circle-highlight {
+  margin-top: 10%;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
