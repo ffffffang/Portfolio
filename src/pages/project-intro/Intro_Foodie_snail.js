@@ -23,7 +23,7 @@ const Intro_Foodie_snail = () => {
           <div className="post-wrap">
             <div>
               <p>
-                從IDEO線上課程學習運用設計思考的方法解決課題，本次課題為：How
+                從 IDEO 線上課程學習運用設計思考的方法解決課題，本次課題為：How
                 Might We Provide Healthier Food Options for People in Need?
                 <br></br>
                 <br></br>

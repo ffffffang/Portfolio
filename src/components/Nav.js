@@ -12,18 +12,13 @@ const Nav = () => {
     <div className="nav-wrap">
       <div className="sub-nav">
         <div className="nav-logo">
-          <Link to="/portfolio">
-            {/* {logo in here} */}
-          </Link>
+          <Link to="/portfolio">{/* {logo in here} */}</Link>
         </div>
         <div className="nav-item-list">
           <Link to="/portfolio">Project</Link>
           <Link to="/portfolio/about">About</Link>
         </div>
-        <div
-          className="nav-toggle"
-          onClick={toggleShow}
-        >
+        <div className="nav-toggle" onClick={toggleShow}>
           <svg
             width="18"
             height="16"
@@ -31,23 +26,9 @@ const Nav = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              width="18"
-              height="2"
-              fill="#fff"
-            />
-            <rect
-              y="7"
-              width="18"
-              height="2"
-              fill="#fff"
-            />
-            <rect
-              y="14"
-              width="18"
-              height="2"
-              fill="#fff"
-            />
+            <rect width="18" height="2" fill="#fff" />
+            <rect y="7" width="18" height="2" fill="#fff" />
+            <rect y="14" width="18" height="2" fill="#fff" />
           </svg>
         </div>
         {toggle && (

@@ -161,9 +161,9 @@ const Intro_DO = () => {
               <h4>05. 達成成果</h4>
               <div class="flex-row">
                 <p>
-                  ‧ 更新 <strong>15</strong> 組元件
-                  <br></br>‧ 參與製作 <strong>2</strong> 個設計系統<br></br>‧
-                  最多減少 <strong>80%</strong> 樣式製作
+                  ‧ 更新 <span class="blue">15</span> 組元件
+                  <br></br>‧ 參與製作 <span class="blue">2</span> 個設計系統
+                  <br></br>‧ 最多減少 <span class="blue">80%</span> 樣式製作
                 </p>
               </div>
               <h5>[ 使用回饋 ]</h5>

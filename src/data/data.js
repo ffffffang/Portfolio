@@ -11,16 +11,16 @@ export default [
   {
     title: "B2B Online Payment Product",
     description: [
-      "本專案作為 B2B 金流付款產品的改版專案，目的為增加使用者的轉換率，希望可以藉由它同步提升在平台完成付款的比例。透過跨部門工作坊從不同角度切入、一齊想解方，且在經過改版後，達成設立成長目標。",
+      "提升 B2B 金流付款產品轉換率 8.16% ，成功降低跳出率、提升使用者付款的頻率。",
     ],
     coverImg: "/portfolio/images/GP/GoFreight-Pay.jpg",
     tag: ["SaaS", "Released"],
     link: "/portfolio/project/gofreight-pay",
   },
   {
-    title: "Design Operation",
+    title: "Design System",
     description: [
-      "執行設計系統的迭代專案，不只增進設計效率也志在幫助跨團隊溝通。",
+      "參與重新規劃設計系統的更新迭代流程，增加產品設計的一致性、減少 80% 元件樣式製作。",
     ],
     coverImg: "/portfolio/images/Design-Operation/Design Ops.jpg",
     tag: ["DesignOps"],
@@ -29,7 +29,7 @@ export default [
   {
     title: "Workfe",
     description: [
-      "Workfe 是一款希望讓使用者找到中意的咖啡廳，同時增加小眾咖啡廳的曝光。主要的工具為滿座率，為解決“人已經到了咖啡廳，才發現沒有位置可以享受”的現象。結合地圖和咖啡同好，創造出史上最完整的咖啡廳app，建立一個充滿咖啡香的社群！",
+      "從 0 到 1 開發 Workfe 解決使用者 “抵達才發現沒有空位” 的痛點，同時增加小眾咖啡廳的曝光。產品規劃初期進駐台大創創中心。",
     ],
     coverImg: "/portfolio/images/Workfe/Workfe.jpg",
     tag: ["APP", "Released"],
@@ -38,7 +38,7 @@ export default [
   {
     title: "Foodie Snail",
     description: [
-      "參與 IDEO 課題目標為：How Might We Provide Healthier Food Options for People in Need? 透過訪談調研來了解在乎健康、租屋上班族的生活經驗與習慣，找到相關痛點，結合食譜以及熱量紀錄系統，以 APP 的形式提供更健康食物的選擇。",
+      "透過訪談調研來了解上班族的生活相關痛點，結合食譜以及熱量紀錄系統，以 APP 的形式提供更健康食物的選擇。",
     ],
     coverImg: "/portfolio/images/Foodie_snail/Foodie Snail.jpg",
     tag: ["APP"],
@@ -56,7 +56,7 @@ export default [
   {
     title: "GoFreight Website",
     description: [
-      "案例為 GoFreight 官方網站改版，作為一款功能多樣強大的 SaaS 軟體，網站將會著重如何讓複雜資訊輕易讓消費者理解進而對產品產生興趣與信賴感。",
+      "將 GoFreight 官方網站改版，提升 6.8 倍的點擊數，讓複雜資訊輕易讓消費者理解進而對產品產生興趣與信賴感。",
     ],
     coverImg: "/portfolio/images/GoFreight/Gofreight Web.jpg",
     tag: ["Released"],

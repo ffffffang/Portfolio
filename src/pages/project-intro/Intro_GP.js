@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import Banner from "../../components/Banner";
 import Scroll from "../../components/Scroll";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -10,6 +10,44 @@ const Intro_GP = () => {
       return (pre = document.querySelectorAll(".post-content h4"));
     });
   }, []);
+
+  const switches = [false, false, false, false, false, false];
+  const popContainer = useRef(null);
+  const popText = useRef(null);
+  const popTextArr = [
+    "預告步驟",
+    "平台優勢",
+    "調整 Payer 稱呼排列",
+    "減少 CTA",
+    "可用付款方式清楚可見",
+    "告知 User 資料是安全的",
+  ];
+  function openInfo(x, e) {
+    popContainer.current.style.display = "none";
+    switches[x] = !switches[x];
+    switches[x]
+      ? (popContainer.current.style.display = "block")
+      : (popContainer.current.style.display = "none");
+
+    switches[x] && (popContainer.current.className = `pop-container pop${x}`);
+    popText.current.innerText = `${popTextArr[x]}`;
+    switches.forEach((_, i) => {
+      if (i != x) {
+        switches[i] = false;
+      }
+    });
+    e.closest(".after-container")
+      .querySelectorAll(".after-btn")
+      .forEach((btns) => (btns.style.opacity = "0.4"));
+    switches[x] === true ? (e.style.opacity = "0") : (e.style.opacity = "0.4");
+  }
+  function hoverInfo(x, e) {
+    switches[x] !== true && (e.style.opacity = "1");
+  }
+  function hoverOutInfo(x, e) {
+    switches[x] !== true && (e.style.opacity = "0.4");
+  }
+
   return (
     <div className="intro-bg">
       <Banner data={"pj-gofreight-pay"} />
@@ -90,7 +128,6 @@ const Intro_GP = () => {
                 />
                 <figcaption>針對假設思考解方之部分討論截圖</figcaption>
               </figure>
-
               <div>
                 <figure>
                   <LazyLoadImage
@@ -128,28 +165,78 @@ const Intro_GP = () => {
                   alt=""
                 />
               </figure>
-              <h5>[ 改版後演示 ]</h5>
-              <video
-                src="/portfolio/images/GP/Mainpage.mov"
-                className="video"
-                autoPlay
-                loop
-                controls
-                muted
-              ></video>
-
-              <figure class="before-hover">
-                <LazyLoadImage
-                  src="/portfolio/images/GP/Payment_Request_Before.jpg"
-                  alt=""
-                />
-              </figure>
-              <figure class="after-hover">
-                <LazyLoadImage
-                  src="/portfolio/images/GP/Payment_Request_After.jpg"
-                  alt=""
-                />
-              </figure>
+              <div>
+                <h5>[ 改版後演示 ]</h5>
+                <video
+                  src="/portfolio/images/GP/Mainpage.mov"
+                  className="video"
+                  autoPlay
+                  loop
+                  controls
+                  muted
+                ></video>
+              </div>
+              <div>
+                <h5>[ 新舊比較 ]</h5>
+                <figure class="before-hover">
+                  <LazyLoadImage
+                    src="/portfolio/images/GP/Payment_Request_Before.jpg"
+                    alt=""
+                  />
+                  <figcaption>(Before) Hover 看舊版痛點 </figcaption>
+                </figure>
+              </div>
+              <div class="after-container">
+                <div
+                  class="after-btn pop0"
+                  onClick={(event) => openInfo(0, event.target)}
+                  onMouseEnter={(event) => hoverInfo(0, event.target)}
+                  onMouseLeave={(event) => hoverOutInfo(0, event.target)}
+                ></div>
+                <div
+                  class="after-btn pop1"
+                  onClick={(event) => openInfo(1, event.target)}
+                  onMouseEnter={(event) => hoverInfo(1, event.target)}
+                  onMouseLeave={(event) => hoverOutInfo(1, event.target)}
+                ></div>
+                <div
+                  class="after-btn pop2"
+                  onClick={(event) => openInfo(2, event.target)}
+                  onMouseEnter={(event) => hoverInfo(2, event.target)}
+                  onMouseLeave={(event) => hoverOutInfo(2, event.target)}
+                ></div>
+                <div
+                  class="after-btn pop3"
+                  onClick={(event) => openInfo(3, event.target)}
+                  onMouseEnter={(event) => hoverInfo(3, event.target)}
+                  onMouseLeave={(event) => hoverOutInfo(3, event.target)}
+                ></div>
+                <div
+                  class="after-btn pop4"
+                  onClick={(event) => openInfo(4, event.target)}
+                  onMouseEnter={(event) => hoverInfo(4, event.target)}
+                  onMouseLeave={(event) => hoverOutInfo(4, event.target)}
+                ></div>
+                <div
+                  class="after-btn pop5"
+                  onClick={(event) => openInfo(5, event.target)}
+                  onMouseEnter={(event) => hoverInfo(5, event.target)}
+                  onMouseLeave={(event) => hoverOutInfo(5, event.target)}
+                ></div>
+                <div ref={popContainer} class="pop-container">
+                  <p class="pop-text">
+                    <span class="close-pop"> ✖ </span>
+                    <span ref={popText}></span>
+                  </p>
+                </div>
+                <figure class="after-img">
+                  <LazyLoadImage
+                    src="/portfolio/images/GP/Payment_Request_After.jpg"
+                    alt=""
+                  />
+                  <figcaption>(After) 點擊觀看新版重點</figcaption>
+                </figure>
+              </div>
             </div>
             <div>
               <h4>04. 成果追蹤</h4>
@@ -183,5 +270,4 @@ const Intro_GP = () => {
     </div>
   );
 };
-
 export default Intro_GP;

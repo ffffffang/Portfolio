@@ -136,7 +136,7 @@
     letter-spacing: 0.1rem;
     line-height: 1.5;
     color: $color-black;
-    strong {
+    span.blue {
       background: -webkit-linear-gradient(90deg, #0226b5 -1.67%, #5daeff 100%);
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -159,6 +159,7 @@
   }
   .before-hover {
     position: relative;
+    margin-bottom: 0;
     &::before {
       content: "";
       background: url("/public/images/GP/Before_Hover.png");
@@ -175,6 +176,104 @@
       opacity: 1;
     }
   }
+  .after-container {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    .after-btn {
+      width: 45px;
+      height: 45px;
+      background: #0066ff;
+      opacity: 0.4;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      z-index: 100;
+      transition: all cubic-bezier(0.8, 0, 0.2, 1) 0.4s, opacity 0s;
+    }
+    .after-btn:hover {
+      transform: scale(0.6);
+    }
+    .after-btn:hover::after {
+      opacity: 0;
+    }
+    .after-btn::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #fff;
+      z-index: 2;
+      transition: opacity 0.6s;
+      animation: pulse 1.5s cubic-bezier(0.8, 0, 0.2, 1) 0s infinite;
+    }
+    @keyframes pulse {
+      0% {
+        transform: scale(0.4);
+      }
+      33% {
+        transform: scale(1);
+      }
+      66% {
+        transform: scale(0.4);
+      }
+      100% {
+        transform: scale(0.4);
+      }
+    }
+    .pop-container {
+      padding: 10px;
+      background: #0066ff;
+      backdrop-filter: blur(2px);
+      width: fit-content;
+      height: 45px;
+      border-radius: 100px;
+      position: absolute;
+      display: none;
+      p {
+        color: #fff;
+        padding-right: 10px;
+      }
+      .close-pop {
+        opacity: 0.6;
+        margin-right: 5px;
+        font-size: 0.7rem;
+      }
+    }
+    .pop0 {
+      top: 22.6%;
+      left: 2.75%;
+    }
+    .pop1 {
+      top: 65.2%;
+      left: 21.59%;
+    }
+    .pop2 {
+      top: 8.5%;
+      left: 43.8%;
+    }
+    .pop3 {
+      top: 45.6%;
+      left: 71.9%;
+    }
+    .pop4 {
+      top: 60.6%;
+      left: 47.4%;
+    }
+    .pop5 {
+      top: 71.1%;
+      left: 60.7%;
+    }
+  }
+
   figcaption {
     margin-top: 10px;
     text-align: center;
@@ -265,5 +364,11 @@
     p {
       margin: 20px auto;
     }
+  }
+  .info1 {
+    background-color: #000;
+  }
+  .info2 {
+    background-color: #000;
   }
 }
