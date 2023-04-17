@@ -90,6 +90,12 @@ const Intro_GP = () => {
                 <figcaption>Step3. 確認資訊並付款</figcaption>
               </figure>
             </div>
+            <p>
+              後台數據發現從 Mainpage 轉換到下一步的 User 只剩下
+              20%，其中願意執行操作的 User
+              更是不到一半，這樣的轉換率也直接影響到後續完成付款人數。在這個專案，我們將透過設計迭代的方式提升
+              Mainpage 的轉換率。
+            </p>
             <figure>
               <LazyLoadImage src="/portfolio/images/GP/Funnel.jpg" alt="" />
             </figure>
