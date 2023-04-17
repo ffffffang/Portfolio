@@ -32,9 +32,9 @@ body {
   min-height: 100%;
   max-height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center 75.83%;
-     object-position: center 75.83%;
+  object-position: center 75.83%;
 }
 
 h1 {
@@ -119,7 +119,7 @@ a {
   top: 1.4em;
   background: rgba(0, 0, 0, 0.1);
   -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   width: calc(100% - 195px);
   margin: 20px auto;
   height: 70px;
@@ -130,7 +130,13 @@ a {
   content: "";
   display: block;
   width: 100%;
-  background: linear-gradient(90deg, rgba(56, 189, 248, 0), rgba(255, 255, 255, 0.1) 20%, rgba(255, 255, 255, 0.1) 67.19%, rgba(236, 72, 153, 0));
+  background: linear-gradient(
+    90deg,
+    rgba(56, 189, 248, 0),
+    rgba(255, 255, 255, 0.1) 20%,
+    rgba(255, 255, 255, 0.1) 67.19%,
+    rgba(236, 72, 153, 0)
+  );
   height: 1px;
   position: absolute;
   top: -1px;
@@ -309,9 +315,9 @@ a {
   min-height: 100%;
   max-height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center 50%;
-     object-position: center 50%;
+  object-position: center 50%;
   transition: all 0.25s ease-in-out;
   transform: scale(1);
   aspect-ratio: 1/1;
@@ -517,7 +523,7 @@ a {
   z-index: 1;
   width: 100vw;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
 }
 @media (max-width: 1440px) {
@@ -624,7 +630,7 @@ a {
 .post-content p span.blue {
   background: -webkit-linear-gradient(90deg, #0226b5 -1.67%, #5daeff 100%);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
 }
@@ -703,7 +709,7 @@ a {
   padding: 10px;
   background: #0066ff;
   -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   width: -moz-fit-content;
   width: fit-content;
   height: 45px;
@@ -961,4 +967,4 @@ a {
 
 .intro-section {
   padding-bottom: 60px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
