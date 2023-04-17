@@ -178,12 +178,12 @@ const Intro_GP = () => {
               </div>
               <div>
                 <h5>[ 新舊比較 ]</h5>
-                <figure class="before-hover">
+                <figure>
                   <LazyLoadImage
                     src="/portfolio/images/GP/Payment_Request_Before.jpg"
                     alt=""
                   />
-                  <figcaption>(Before) Hover 看舊版痛點 </figcaption>
+                  <figcaption>(Before) 舊版痛點 </figcaption>
                 </figure>
               </div>
               <div class="after-container">
