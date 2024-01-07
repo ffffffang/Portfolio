@@ -16,6 +16,7 @@ const IntroFoodiesnail = lazy(() =>
 // const IntroGC = lazy(() => import("./pages/project-intro/Intro_GC"));
 const IntroGP = lazy(() => import("./pages/project-intro/Intro_GP"));
 const IntroDO = lazy(() => import("./pages/project-intro/Intro_DO"));
+const Intro_OEC_ds = lazy(() => import("./pages/project-intro/Intro_OEC_ds"));
 function App() {
   const dotBg = {
     backgroundImage: "url(/portfolio/images/dotBg.png)",
@@ -32,7 +33,11 @@ function App() {
         /> */}
         <Route path="/portfolio/project/gofreight-pay" element={<IntroGP />} />
         <Route
-          path="/portfolio/project/design-operation"
+          path="/portfolio/project/b2b-software-design-system"
+          element={<Intro_OEC_ds />}
+        />
+        <Route
+          path="/portfolio/project/design-system-iteration"
           element={<IntroDO />}
         />
 

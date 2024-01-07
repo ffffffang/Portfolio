@@ -18,13 +18,22 @@ export default [
     link: "/portfolio/project/gofreight-pay",
   },
   {
-    title: "Design System",
+    title: "B2B Software Design System",
+    description: [
+      "參考多個產品設計規範，從基本元素到模板 0-1 嚴謹建置的設計元件庫。",
+    ],
+    coverImg: "/portfolio/images/OEC_ds/B2B-design-system.jpg",
+    tag: ["DesignOps"],
+    link: "/portfolio/project/b2b-software-design-system",
+  },
+  {
+    title: "Design System Iteration",
     description: [
       "參與重新規劃設計系統的更新迭代流程，增加產品設計的一致性、減少 80% 元件樣式製作。",
     ],
     coverImg: "/portfolio/images/Design-Operation/Design Ops.jpg",
     tag: ["DesignOps"],
-    link: "/portfolio/project/design-operation",
+    link: "/portfolio/project/design-system-iteration",
   },
   {
     title: "Workfe",
