@@ -104,7 +104,7 @@ const Intro_OEC_ds = () => {
               </p>
               <figure>
                 <LazyLoadImage
-                  src="/portfolio/images/GP/Navigation-Bar.jpg"
+                  src="/portfolio/images/OEC_ds/Navigation-Bar.jpg"
                   alt=""
                 />
               </figure>
