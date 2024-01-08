@@ -31,7 +31,6 @@ export default [
     bgs: "/portfolio/images/OEC_ds/banner.jpg",
     role: [
       "Design Guideline Research",
-      "Structure Planning",
       "Basic Element Settings",
       "Design Tokens",
       "Build Components",
