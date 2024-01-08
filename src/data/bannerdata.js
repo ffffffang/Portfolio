@@ -30,11 +30,11 @@ export default [
     bg: "/portfolio/images/OEC_ds/banner.jpg",
     bgs: "/portfolio/images/OEC_ds/banner.jpg",
     role: [
-      "Design Guideline Research",
+      "Research",
       "Basic Element Settings",
       "Design Tokens",
       "Build Components",
-      "UI Guideline Documentation",
+      "UI Guideline",
     ],
     platforms: "-",
     years: "2023-2024",
